@@ -21225,7 +21225,7 @@ var Home = exports.Home = function Home() {
 																_react2.default.createElement(
 																								'p',
 																								null,
-																								'Instructions: Please click the SOPTIFY BUTTON'
+																								'Instructions: Please click the SPOTIFY BUTTON'
 																),
 																_react2.default.createElement(
 																								'button',
