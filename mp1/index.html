@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP1 Starter</title>
+</head>
+
+
+<a id="multi-column"></a>
+<body>
+
+	<nav>
+		<ul>
+			<li data-index="0"><a href="#carousel">carousel</a></li>
+			<li data-index="1"><a href="#multi-column">multi-column</a></li>
+			<li data-index="2"><a href="#Background_Image">Background Image</a></li>
+			<li data-index="3"><a href="#Modal">Modal</a></li>
+			<li data-index="4"><a href="#video">Video</a></li>
+			<li data-index="5"><a href="#css_animations">CSS3 Animations</a></li>
+		</ul>
+	</nav>
+	<div class="main_section">
+
+	    <h2>Welcome to MP1!</h2>
+
+	    <div id="carousel" class="stripe">
+	    	<div class="center_it">
+		    	<p>Note the use of vector graphics arrows</p>
+		    	<button id="left_button"><img src="assets/Arrow_RTL.svg" /></button>
+		    	<button id="right_button"><img src="assets/Arrow.svg" /></button>
+	    	</div>
+	    	<div id="billboard">
+		    	<div class="advertisement">
+		    		<div class="center_it">
+		    			<p>I am a Billboard advertisement</p>
+		    		</div>
+		    	</div>
+		    	<div class="advertisement">
+		    		<div class="center_it">
+		    			<p>I am also Billboard advertisement</p>
+		    		</div>
+		    	</div>
+		    	<div class="advertisement">
+		    		<div class="center_it">
+		    			<p>I too, am a Billboard advertisement</p>
+		    			<img src="assets/tree.png">
+		    			<p>Proof I am a div</p>
+		    		</div>
+		    	</div>
+	    	</div>
+	    </div>
+	    <div id="multi-column" class="stripe">
+	    	<div class="column">
+	    		<p>First column</p>
+	    	</div>
+	    	<div class="column">
+	    		<p>Second column</p>
+	    	</div>
+	    	<div class="column">
+	    		<p>Third column</p>
+	    	</div>
+	    </div>
+
+	    <div id="Background_Image" class="stripe">
+	    	<!-- Wow such empty -->	
+		</div>
+	    
+	    <div id="Modal" class="stripe">
+	    	<div class="center_it">
+	    	<p>This is my modal, there are others like it, but this one is mine.</p>
+	    	<button id="modal_activate">activate</button>
+	    	</div>
+	    	<div id="modal_box" >
+	    		<img src="assets/portal2exit.jpg" id="modal_deactivate"/>
+	    		<p>All your base are belong to us</p>
+	    	</div>
+	    </div>
+
+	    <div id="video" class="stripe">
+	    	<div class="center_it">
+		    	<video width="320" height="240" controls>
+	  				<source src="assets/AlPachino.mp4">
+	  			</video>
+  			</div>
+	    </div>
+
+	    <div id="css_animations" class="stripe" >
+	    	<button id="animate-button">throw</button>
+	    	<button id="reanimate-button">reset</button>
+	    	<img id="axe" src="assets/axe.png"/>
+	    	<img id="tree" src="assets/tree.png"/>
+	    </div>
+	    
+
+	    
+	</div>
+	<div id="footer" class="center_it">
+		<p>This is the footer, please note the social media icons</p>
+		<img class="icon" src="assets/Forchan.png"/>
+		<img class="icon" src="assets/fb-art.png"/>
+	</div>
+
+
+	<script src="bundle.js" type="text/javascript"></script>
+</body>
+
+</html>
