@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Chicago";
+  src: url(assets/Chicago\ Light.ttf);
+}
+@font-face {
+  font-family: "Didot";
+  src: url(assets/Didot.ttf);
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(assets/Helvetica-Regular.ttf);
+}
+@font-face {
+  font-family: "Calibri";
+  src: url(assets/calibri.ttf);
+}
+@font-face {
+  font-family: "Comic Sans";
+  src: url(assets/Comic\ Sans\ MS.ttf);
+}
+
+body{
+	color: black;
+	padding:0;
+	margin:0;
+	/*border:solid black 1px;*/
+	height: 11in;
+	width: 8.5in;
+}
+ol{
+	list-style-type: upper-roman;
+	padding: 0in .5in;
+}
+li{
+	padding: 0in;
+	list-style-type: square;
+}
+
+.record-body{
+	padding: 0in .5in;
+	list-style-type: none;
+	margin: .1in 0in;
+}
+
+.record-header{
+	font-family: Chicago;
+	display:grid;
+	grid-template-columns: 28% 44% 28%;
+	/*border: solid black 1px;*/
+	padding: 0in 0 0 0;
+	margin: 0in 0 .1in 0;
+}
+.three-column{
+	display:grid;
+	grid-template-columns: 33% 34% 33%;
+	border: solid black 1px;
+	padding: 0in 0;
+	margin: .05in;
+}
+
+.first-column{
+	text-align:left;
+	border: solid black 1px;
+	padding: .1in .1in;
+}
+.second-column{
+	text-align:center;
+	border: solid black 1px;
+	padding: .1in .1in;
+}
+.third-column{
+	text-align:right;
+	border: solid black 1px;
+	padding: .1in .1in;
+}
+.three-column2{
+	display:grid;
+	grid-template-columns: 33% 34% 33%;
+	padding: 0in 0in;
+	margin: 0in 0in;
+}
+.first-column2{
+	text-align:left;
+}
+.second-column2{
+	text-align:center;
+}
+.third-column2{
+	text-align:right;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: .1in 0;
+    padding: 0; 
+}
+.websites{
+	position: relative;
+	display: block;
+	border: solid white 1px;
+	margin: .05in 0 .1in 0;
+	padding: 0;
+}
+.website{
+	position: relative;
+	/*left: 50%;*/
+	/*right:0%;*/
+	/*transform: translateX(-50%);*/
+	/*text-align: center;*/
+	/*float: left;*/
+	/*text-align: left;*/
+	/*padding: in;*/
+	/*margin: 4in 0 0 0;*/
+	/*float: left;*/
+	/*width: 8in;*/
+	/*white-space: nowrap;*/
+}
+.vertical-bar{
+	border-left: solid white 1px;
+	/*border-right: solid black 1px;*/
+	margin: 0 .02in 0 .02in;
+}
+.resume{
+	/*background-color: rgb(20,10,85);*/
+	/*background-color: rgb(0,0,80);*/
+	height: 10in;
+	width: 6.5in;
+	padding: .5in 1in;
+	/*border: solid black 1px;*/
+	/*font-family: "Comic Sans";*/
+	font-family: Calibri;
+	/*font-family: Didot;*/
+	/*font-family: Helvetica;*/
+	/*font-family: Arial;*/
+	/*font-family: Helvetica;*/
+}
+.title{
+	position: relative;
+	/*height: 1in;*/
+	text-align: center;
+	border: solid black 1px;
+	padding: 0 0 0 0;
+	margin: 0;
+
+}
+
+#name{
+	font-family: Chicago;
+	/*color: white;*/
+	font-size: 2rem;
+	padding: 0;
+	margin: .1in 0 0in  0;
+}
+h3{
+	display: inline;
+	padding:0;
+	margin:0;
+	/*color:white;*/
+}
+p{
+	/*color:white;*/
+	display:inline;
+	padding:0;
+	margin:0;
+	width: auto;
+	border: solid white 1px;
+}
