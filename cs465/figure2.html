@@ -1,0 +1,119 @@
+<html>
+<head>
+	<script>
+		// Internal javascript
+	</script>
+	<style>
+		div {
+			border: 1px #000 solid;
+		}
+
+		body {
+		    background-color: linen;
+		}
+
+		h1 {
+		    color: maroon;
+		    margin-left: 40px;
+		} 
+
+		.round {
+		    border-radius: 15px;
+		    border: 1px #000 solid;
+		    padding: 5px 5px 5px 25px;
+		}
+		.center_it{
+			position:relative;
+			left:50%;
+			transform: translateX(-50%);
+			-webkit-transform: translateX(-50%);
+			text-align:center;
+		}
+		.search_n_results{
+			position:relative;
+			width:60%;
+			float: left;
+			display:inline-block;
+			height: 100%;
+		}
+		.search_bar {
+			width: 80%;
+			margin: 2rem 0rem;
+		}
+		.query_modifiers{
+			position:relative;
+			width:39%;
+			height: 100%;
+			display:inline-block;
+		}
+		.categories{
+			position: relative;
+			width: 20%;
+			display:inline-block;
+			height: 100%;
+
+		}
+		.categories_list{
+			border: 1px solid black;
+			position: absolute;
+			right:0;
+			top: 5rem;
+		}
+		td {
+			border: 1px solid black;	
+		}
+		.selection_window{
+			width:77%;
+			position: relative;
+			display:inline-block;
+			height: 100%;
+		}
+		.selection_list{
+			position: absolute;
+			width: 100%;
+			left: 0;
+		}
+		.container{
+			height: 100%;
+		}
+		#red{
+			border-color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<div  class="container">
+		<div  class="search_n_results"> 
+			<!-- Search Bar -->
+			<div>
+				 <input type="text" name="search_bar" class="round search_bar center_it" />
+			</div>
+			<!-- Results List-->
+			<div>
+				<p>Blah</p>
+			</div>
+		</div>
+		<div id="red" class="query_modifiers">
+			<!-- Query Modifier Tabs -->
+			<div class="categories">
+				<table class="categories_list">
+					<tr><td>Domain</td> </tr>
+					<tr><td>Category</td> </tr>
+					<tr><td>Tool/Lang</td> </tr>
+					<tr><td>Platform</td> </tr>
+				</table>
+			</div >
+			<!-- Selection Window -->
+			<div class="selection_window">
+				<table class="selection_list">
+					<tr><td>Domain</td> </tr>
+					<tr><td>Category</td> </tr>
+					<tr><td>Tool/Lang</td> </tr>
+					<tr><td>Platform</td> </tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
