@@ -89,7 +89,7 @@
 		<div class="center_it">
 			<input type="text" name="search_bar" class="round search_bar" />
 			<div class="follow">
-				<label>Search by institution</label><input type="checkbox">
+				<label>Search by institution</label><input id="checkbox" type="checkbox">
 			</div>
 		</div>
 	</div>
@@ -97,46 +97,70 @@
 	<div class="margins">
 		<div class="results center_it">
 			<div class="company_card">
-				<img class="logo" src="assets/facebook-logo.png">
+				<img id="img1" class="logo" src="assets/facebook-logo.png">
 			</div>
 			<div class="spacing"></div>
 			<div class="company_card">
-				<img class="logo" src="assets/amazon-logo.png">
+				<img id="img2" class="logo" src="assets/amazon-logo.png">
 			</div>
 			<div class="spacing"></div>
 			<div class="company_card">
-				<img class="logo" src="assets/microsoft-logo.png">
+				<img id="img3" class="logo" src="assets/microsoft-logo.png">
 			</div>
 		</div>
 		<div class="results center_it">
 			<div class="company_card">
 				<table class="paper_table">
-					<tr><td>paper 1</td></tr>
-					<tr><td>paper 2</td></tr>
-					<tr><td>paper 3</td></tr>
-					<tr><td>paper 4</td></tr>
+					<tr><td class="taketofig4">paper 1</td></tr>
+					<tr><td class="taketofig4">paper 2</td></tr>
+					<tr><td class="taketofig4">paper 3</td></tr>
+					<tr><td class="taketofig4">paper 4</td></tr>
 				</table>
 			</div>
 			<div class="spacing"></div>
 			<div class="company_card">
 				<table class="paper_table">
-					<tr><td>paper 1</td></tr>
-					<tr><td>paper 2</td></tr>
-					<tr><td>paper 3</td></tr>
-					<tr><td>paper 4</td></tr>
+					<tr><td class="taketofig4">paper 1</td></tr>
+					<tr><td class="taketofig4">paper 2</td></tr>
+					<tr><td class="taketofig4">paper 3</td></tr>
+					<tr><td class="taketofig4">paper 4</td></tr>
 				</table>
 			</div>
 			<div class="spacing"></div>
 			<div class="company_card">
 				<table class="paper_table">
-					<tr><td>paper 1</td></tr>
-					<tr><td>paper 2</td></tr>
-					<tr><td>paper 3</td></tr>
-					<tr><td>paper 4</td></tr>
+					<tr><td class="taketofig4">paper 1</td></tr>
+					<tr><td class="taketofig4">paper 2</td></tr>
+					<tr><td class="taketofig4">paper 3</td></tr>
+					<tr><td class="taketofig4">paper 4</td></tr>
 				</table>
 			</div>
 		</div>
 	</div>
+
+	<script>
+		
+		document.getElementById("checkbox").addEventListener("click", function(){
+			box = document.getElementById("checkbox");
+			if(box.checked===true){
+				document.getElementById("img1").src="assets/mit-logo.png"
+				document.getElementById("img2").src="assets/illinois-logo.png"
+				document.getElementById("img3").src="assets/berkely-logo.png"
+			} else {
+				document.getElementById("img1").src="assets/facebook-logo.png"
+				document.getElementById("img2").src="assets/amazon-logo.png"
+				document.getElementById("img3").src="assets/microsoft-logo.png"
+			}
+		});
+
+		links = document.getElementsByClassName("taketofig4");
+		for(var i=0; i<links.length; i++){
+			links[i].addEventListener("click",function(){
+				window.location.href = "figures-4.html";
+			});
+		}
+
+	</script>
 </body>
 </html>
 
