@@ -163,6 +163,7 @@
 		function fillinTable(rownum){
 			for(let i=0; i<results_rows.length; i++){
 				results_rows[i].style.visibility="visible";
+				results_rows[i].style.backgroundColor="linen";
 				results_rows[i].innerHTML=categories[rownum][i];
 			}
 		} 
@@ -174,6 +175,12 @@
 		      	update();
 		        return false;
 		    }
+		}
+
+		for(var i=0; i<results_rows.length; i++){
+			results_rows[i].addEventListener("click", function(){
+				this.style.backgroundColor="blue";
+			});
 		}
 
 	</script>
