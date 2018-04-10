@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<style>
+select.selectpicker
+{
+    background-color: #009701;
+}
+</style>
   <head>
 
     <meta charset="utf-8">
@@ -72,8 +77,21 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <p>The following is your reading list:</p>
-          
-          
+          <select class="selectpicker" data-style="btn-primary" >
+          <option> Paper </option>
+          <option>Author</option>
+          </select> <br>
+          <select class="selectpicker" data-style="btn-primary" >
+          <option> Paper </option>
+          <option>Author</option>
+          </select> <br>
+          <select class="selectpicker" data-style="btn-primary" >
+          <option> Paper </option>
+          <option>Author</option>
+          </select> <br>
+          <br>
+          <button type="button" class="btn btn-info" onclick = "location.href ='graphs.html' " >Click here to generate graph of selected items</button>
+
         </div>
       </div>
     </div>
