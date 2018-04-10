@@ -37,7 +37,7 @@
 			height: 100%;
 		}
 		.search_bar {
-			width: 80%;
+			width: 60%;
 			margin: 2rem 0rem;
 		}
 		.query_modifiers{
@@ -68,7 +68,7 @@
 			display:inline-block;
 			height: 100%;
 		}
-		.selection_list{
+		#selection_list{
 			position: absolute;
 			width: 100%;
 			left: 0;
@@ -88,11 +88,10 @@
 		<div  class="search_n_results"> 
 			<!-- Search Bar -->
 			<div>
-				 <input type="text" name="search_bar" class="round search_bar center_it" />
+				 <input id="searchbar" type="text" name="search_bar" class="round search_bar center_it" /><button style="margin: 0 0 0 10rem;" onclick="window.location.href ='./startbootstrap/index.html&returnedFromCustom=true'">Search</button>
 			</div>
 			<!-- Results List-->
 			<div>
-				<p>Blah</p>
 			</div>
 		</div>
 		<div id="red" class="query_modifiers">
@@ -107,7 +106,7 @@
 			</div >
 			<!-- Selection Window -->
 			<div class="selection_window">
-				<table class="selection_list" style="visibility:visible;">
+				<table id="selection_list" style="visibility:hidden;">
 					<tr><td class="trs">Domain</td> </tr>
 					<tr><td class="trs">Category</td> </tr>
 					<tr><td class="trs">Tool/Lang</td> </tr>
@@ -141,6 +140,7 @@
 		});
 
 		function handleClick(tab, rownum){
+			document.getElementById("selection_list").style.visibility="visible";
 			if(current_tab){
 				current_tab.style.backgroundColor = "linen";
 			}
@@ -149,18 +149,31 @@
 			fillinTable(rownum);
 		}
 
-		function fillinTable2(phrase){
-
+		function update(){
+			var searchbar = document.getElementById("searchbar");
+			thing_im_looking_for = searchbar.value;
+			document.getElementById("selection_list").style.visibility="visible";
+			results_rows[0].innerHTML = thing_im_looking_for;
+			for(var i=1; i<results_rows.length; i++){
+				results_rows[i].style.visibility="hidden";
+			}
+			searchbar.value = "";
 		}
+
 		function fillinTable(rownum){
 			for(let i=0; i<results_rows.length; i++){
+				results_rows[i].style.visibility="visible";
 				results_rows[i].innerHTML=categories[rownum][i];
 			}
 		} 
 
-		function update(){
-
-			update
+		document.getElementById('searchbar').onkeypress = function(e){
+		    if (!e) e = window.event;
+		    var keyCode = e.keyCode || e.which;
+		    if (keyCode == '13'){
+		      	update();
+		        return false;
+		    }
 		}
 
 	</script>
