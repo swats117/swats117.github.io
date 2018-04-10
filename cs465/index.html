@@ -96,6 +96,7 @@ div.topnav{
     </form>
     </div>
     </div>
+    <p id="charlieSpecialTag" style="text-align: center; visibility: hidden;">The result you were looking for!</p>
     <p class = "bu1" ><button  type="button" class="btn btn-dark" onclick="location.href = 'node-focusable-d3-radial/index.html'">Author</button> <p>
        <p class = "bu2" ><button type="button" class="btn btn-dark" onclick="location.href ='figures-4.html' ">Title</button> <p>
          <p class = "bu3" ><button type="button" class="btn btn-dark" onclick="location.href ='figures-4.html' ">Abstract</button> <p>
@@ -122,7 +123,13 @@ div.topnav{
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
-    
+    <script>
+      // This script is for to complete user task 1.
+      url = new URL(window.location.href);
+      if(url.searchParams.get("returnedFromCustom") != null){
+        document.getElementById("charlieSpecialTag").style.visibility="visible";
+      }
+    </script>
 
   </body>
 
