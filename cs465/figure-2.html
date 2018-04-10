@@ -81,6 +81,7 @@
 		}
 
 	</style>
+	
 </head>
 <body>
 	<div  class="container">
@@ -98,22 +99,70 @@
 			<!-- Query Modifier Tabs -->
 			<div class="categories">
 				<table class="categories_list">
-					<tr><td>Domain</td> </tr>
-					<tr><td>Category</td> </tr>
-					<tr><td>Tool/Lang</td> </tr>
-					<tr><td>Platform</td> </tr>
+					<tr><td id="Domain"  >Domain   </td></tr>
+					<tr><td id="Category">Category </td></tr>
+					<tr><td id="ToolLang">Tool/Lang</td></tr>
+					<tr><td id="Platform">Platform </td></tr>
 				</table>
 			</div >
 			<!-- Selection Window -->
 			<div class="selection_window">
-				<table class="selection_list">
-					<tr><td>Domain</td> </tr>
-					<tr><td>Category</td> </tr>
-					<tr><td>Tool/Lang</td> </tr>
-					<tr><td>Platform</td> </tr>
+				<table class="selection_list" style="visibility:visible;">
+					<tr><td class="trs">Domain</td> </tr>
+					<tr><td class="trs">Category</td> </tr>
+					<tr><td class="trs">Tool/Lang</td> </tr>
+					<tr><td class="trs">Platform</td> </tr>
 				</table>
 			</div>
 		</div>
 	</div>
+	<script>
+		number_of_hits=0;
+		current_tab = null;
+		results_rows = document.getElementsByClassName("trs");
+
+		categories = [
+			["The Royal Institute","SIGOP","IEEE","ACM"],
+			["Machine Learning","Programming Languages","Game Theoretic Algorithms","Distributed Systems"],
+			["C++","TensorFlow","Fortran","Haskell"],
+			["Mac","Linux","Windows","Sun"]
+		];
+
+		document.getElementById("Domain").addEventListener("click", function(){ handleClick("Domain",0);
+		});
+		document.getElementById("Category").addEventListener("click", function(){
+			handleClick("Category",1);
+		});
+		document.getElementById("ToolLang").addEventListener("click", function(){
+			handleClick("ToolLang",2);
+		});
+		document.getElementById("Platform").addEventListener("click", function(){
+			handleClick("Platform",3)
+		});
+
+		function handleClick(tab, rownum){
+			if(current_tab){
+				current_tab.style.backgroundColor = "linen";
+			}
+			current_tab = document.getElementById(tab);
+			current_tab.style.backgroundColor="blue";
+			fillinTable(rownum);
+		}
+
+		function fillinTable2(phrase){
+
+		}
+		function fillinTable(rownum){
+			for(let i=0; i<results_rows.length; i++){
+				results_rows[i].innerHTML=categories[rownum][i];
+			}
+		} 
+
+		function update(){
+
+			update
+		}
+
+	</script>
 </body>
 </html>
