@@ -90,13 +90,17 @@ div.topnav{
     <div class="topnav">
  
     <div class="search-container">
-    <form action="/action_page.php">
+    <form action="/action.php">
     <input type="text" placeholder="Search.." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
+    <button type="submit" onclick="document.getElementById('charlieSpecialTag').style.visibility='visible';"><i class="fa fa-search"></i></button>
     </form>
     </div>
     </div>
-    <p id="charlieSpecialTag" style="text-align: center; visibility: hidden;">The result you were looking for!</p>
+    <select id="charlieSpecialTag" style="position: relative; left: 30%; width: 40%; visibility: hidden" onchange="if (this.selectedIndex == 1){ location.href ='figures-4.html' } else {console.log('hello');}">
+      <option value="Kavi Mahesh">select</option>
+      <option value="Kavi Mahesh">Kavi Mahesh</option>
+      <option value="audi">More comming</option>
+    </select>
     <p class = "bu1" ><button  type="button" class="btn btn-dark" onclick="location.href = 'node-focusable-d3-radial/index.html'">Author</button> <p>
        <p class = "bu2" ><button type="button" class="btn btn-dark" onclick="location.href ='figures-4.html' ">Title</button> <p>
          <p class = "bu3" ><button type="button" class="btn btn-dark" onclick="location.href ='figures-4.html' ">Abstract</button> <p>
