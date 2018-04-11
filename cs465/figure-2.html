@@ -127,6 +127,13 @@
 			["Mac","Linux","Windows","Sun"]
 		];
 
+		highlights = [
+			[false,false,false,false],
+			[false,false,false,false],
+			[false,false,false,false],
+			[false,false,false,false]
+		];
+
 		document.getElementById("Domain").addEventListener("click", function(){ handleClick("Domain",0);
 		});
 		document.getElementById("Category").addEventListener("click", function(){
@@ -164,6 +171,9 @@
 			for(let i=0; i<results_rows.length; i++){
 				results_rows[i].style.visibility="visible";
 				results_rows[i].style.backgroundColor="linen";
+				if(highlights[rownum][i]){
+					results_rows[i].style.backgroundColor="blue";
+				}
 				results_rows[i].innerHTML=categories[rownum][i];
 			}
 		} 
@@ -177,9 +187,25 @@
 		    }
 		}
 
-		for(var i=0; i<results_rows.length; i++){
+		function lookupTab(){
+			tab_names = ["Domain","Category","ToolLang","Platform"];
+			for(let i=0; i<tab_names.length; i++){
+				if( current_tab === document.getElementById(tab_names[i]) ){
+					return i;
+				}
+			}
+		}
+
+		for(let i=0; i<results_rows.length; i++){
 			results_rows[i].addEventListener("click", function(){
-				this.style.backgroundColor="blue";
+				if(highlights[lookupTab()][i]){
+					highlights[lookupTab()][i] = false;
+					this.style.backgroundColor="linen";
+				} else {
+					highlights[lookupTab()][i]=true;
+					this.style.backgroundColor="blue";
+				}
+				
 			});
 		}
 
