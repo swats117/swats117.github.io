@@ -24,8 +24,8 @@
 		}
 		.center_it{
 			position:relative;
-			left:50%;
-			transform: translateX(-50%);
+			left:40%;
+			transform: translateX(-40%);
 			-webkit-transform: translateX(-50%);
 			text-align:center;
 		}
@@ -88,7 +88,8 @@
 		<div  class="search_n_results"> 
 			<!-- Search Bar -->
 			<div>
-				 <input id="searchbar" type="text" name="search_bar" class="round search_bar center_it" /><button style="margin: 0 0 0 30rem;" onclick="window.location.href ='index.html?returnedFromCustom=true'">Search</button>
+				 <input id="searchbar" type="text" name="search_bar" class="round search_bar center_it" /><button style="margin: 0 0 0 5rem;" onclick="window.location.href ='index.html?returnedFromCustom=true'">Search</button>
+				 	<button style="margin: 0 0 0 0rem;" onclick="resetState()">Clear Customizations</button>
 			</div>
 			<!-- Results List-->
 			<div>
@@ -207,6 +208,18 @@
 				}
 				
 			});
+		}
+
+		function resetState(){
+			highlights = [
+				[false,false,false,false],
+				[false,false,false,false],
+				[false,false,false,false],
+				[false,false,false,false]
+			];
+			for(let i=0; i<results_rows.length; i++){
+				results_rows[i].style.backgroundColor="linen";
+			}
 		}
 
 	</script>
