@@ -1,0 +1,20 @@
+Unsupervised learning
+An introduction to the bootstrap
+Regression shrinkage and selection via the lasso
+Generalized additive models
+Generalized Additive Models
+Significance analysis of microarrays applied to the ionizing radiation response
+Gene expression patterns of breast carcinomas distinguish tumor subclasses with clinical implications
+Distinct types of diffuse large B-cell lymphoma identified by gene expression profiling
+The jackknife, the bootstrap, and other resampling plans
+Least angle regression
+Statistical significance for genomewide studies
+Additive logistic regression: a statistical view of boosting (with discussion and a rejoinder by the authors)
+Bootstrap methods for standard errors, confidence intervals, and other measures of statistical accuracy
+Regularization paths for generalized linear models via coordinate descent
+Estimating the number of clusters in a data set via the gap statistic
+Better bootstrap confidence intervals
+The Dantzig selector: Statistical estimation when p is much larger than n
+An introduction to statistical learning
+Diagnosis of multiple cancer types by shrunken centroids of gene expression
+Sparse inverse covariance estimation with the graphical lasso

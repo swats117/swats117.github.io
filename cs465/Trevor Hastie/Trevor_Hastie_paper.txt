@@ -1,0 +1,20 @@
+Unsupervised learning
+Generalized additive models
+Gene expression patterns of breast carcinomas distinguish tumor subclasses with clinical implications
+Least angle regression
+Regularization and variable selection via the elastic net
+Additive logistic regression: a statistical view of boosting (with discussion and a rejoinder by the authors)
+Regularization paths for generalized linear models via coordinate descent
+Estimating the number of clusters in a data set via the gap statistic
+The Dantzig selector: Statistical estimation when p is much larger than n
+Statistical models in S
+An introduction to statistical learning
+Diagnosis of multiple cancer types by shrunken centroids of gene expression
+Sparse inverse covariance estimation with the graphical lasso
+Missing value estimation methods for DNA microarrays
+A statistical explanation of MaxEnt for ecologists
+The elements of statistical learning
+A working guide to boosted regression trees
+Sparse principal component analysis
+Varying-coefficient models
+Classification by pairwise coupling

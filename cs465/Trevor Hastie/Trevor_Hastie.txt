@@ -1,0 +1,40 @@
+T Hastie, R Tibshirani, J Friedman
+The elements of statistical learning, 485-585, 2009
+TJ Hastie
+Statistical models in S, 249-307, 2017
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+Proceedings of the National Academy of Sciences 98 (19), 10869-10874, 2001
+B Efron, T Hastie, I Johnstone, R Tibshirani
+The Annals of statistics 32 (2), 407-499, 2004
+H Zou, T Hastie
+Journal of the Royal Statistical Society: Series B (Statistical Methodology …, 2005
+J Friedman, T Hastie, R Tibshirani
+The annals of statistics 28 (2), 337-407, 2000
+J Friedman, T Hastie, R Tibshirani
+Journal of statistical software 33 (1), 1, 2010
+R Tibshirani, G Walther, T Hastie
+Journal of the Royal Statistical Society: Series B (Statistical Methodology …, 2001
+E Candes, T Tao
+The Annals of Statistics 35 (6), 2313-2351, 2007
+JM Chambers, TJ Hastie
+CRC Press, Inc., 1991
+G James, D Witten, T Hastie, R Tibshirani
+springer, 2013
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+Proceedings of the National Academy of Sciences 99 (10), 6567-6572, 2002
+J Friedman, T Hastie, R Tibshirani
+Biostatistics 9 (3), 432-441, 2008
+O Troyanskaya, M Cantor, G Sherlock, P Brown, T Hastie, R Tibshirani, ...
+Bioinformatics 17 (6), 520-525, 2001
+J Elith, SJ Phillips, T Hastie, M Dudík, YE Chee, CJ Yates
+Diversity and distributions 17 (1), 43-57, 2011
+J Friedman, T Hastie, R Tibshirani
+Springer series in statistics 1, 337-387, 2001
+J Elith, JR Leathwick, T Hastie
+Journal of Animal Ecology 77 (4), 802-813, 2008
+H Zou, T Hastie, R Tibshirani
+Journal of computational and graphical statistics 15 (2), 265-286, 2006
+T Hastie, R Tibshirani
+Journal of the Royal Statistical Society. Series B (Methodological), 757-796, 1993
+T Hastie, R Tibshirani
+Advances in neural information processing systems, 507-513, 1998

@@ -1,0 +1,20 @@
+The Nature of Statistical Learning Theory
+Statistical Learning Theory
+Support-vector networks
+A tutorial on support vector machines for pattern recognition
+An introduction to variable and feature selection
+A training algorithm for optimal margin classifiers
+Gene selection for cancer classification using support vector machines
+Estimation of dependences based on empirical data
+On the uniform convergence of relative frequencies of events to their probabilities
+Backpropagation applied to handwritten zip code recognition
+Choosing multiple parameters for support vector machines
+Support vector method for function approximation, regression estimation and signal processing
+Support vector regression machines
+Handwritten digit recognition with a back-propagation network
+Support vector machines for spam categorization
+Support vector machines for histogram-based image classification
+Feature extraction: foundations and applications
+Multi-class support vector machines
+The MNIST database of handwritten digits
+Support vector clustering

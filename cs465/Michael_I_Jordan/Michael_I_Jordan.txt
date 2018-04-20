@@ -1,0 +1,40 @@
+DM Blei, AY Ng, MI Jordan
+Journal of machine Learning research 3 (Jan), 993-1022, 2003
+AY Ng, MI Jordan, Y Weiss
+Advances in neural information processing systems, 849-856, 2002
+RA Jacobs, MI Jordan, SJ Nowlan, GE Hinton
+Neural computation 3 (1), 79-87, 1991
+YW Teh, MI Jordan, MJ Beal, DM Blei
+Advances in neural information processing systems, 1385-1392, 2005
+MI Jordan, RA Jacobs
+Neural computation 6 (2), 181-214, 1994
+MI Jordan, Z Ghahramani, TS Jaakkola, LK Saul
+Machine learning 37 (2), 183-233, 1999
+MJ Wainwright, MI Jordan
+Foundations and Trends® in Machine Learning 1 (1–2), 1-305, 2008
+DM Wolpert, Z Ghahramani, MI Jordan
+Science 269 (5232), 1880-1882, 1995
+EP Xing, MI Jordan, SJ Russell, AY Ng
+Advances in neural information processing systems, 521-528, 2003
+GRG Lanckriet, N Cristianini, P Bartlett, LE Ghaoui, MI Jordan
+Journal of Machine learning research 5 (Jan), 27-72, 2004
+E Todorov, MI Jordan
+Nature neuroscience 5 (11), 1226, 2002
+B Sinopoli, L Schenato, M Franceschetti, K Poolla, MI Jordan, SS Sastry
+IEEE transactions on Automatic Control 49 (9), 1453-1464, 2004
+C Andrieu, N De Freitas, A Doucet, MI Jordan
+Machine learning 50 (1-2), 5-43, 2003
+A Ng, MI Jordan
+Advances in Neural Information Processing Systems 14, 841, 2002
+K Barnard, P Duygulu, D Forsyth, N Freitas, DM Blei, MI Jordan
+Journal of machine learning research 3 (Feb), 1107-1135, 2003
+MI Jordan
+Springer Science & Business Media, 1998
+FR Bach, MI Jordan
+Journal of machine learning research 3 (Jul), 1-48, 2002
+MI Jordan, DE Rumelhart
+Cognitive science 16 (3), 307-354, 1992
+KP Murphy, Y Weiss, MI Jordan
+Proceedings of the Fifteenth conference on Uncertainty in artificial …, 1999
+DA Cohn, Z Ghahramani, MI Jordan
+Journal of artificial intelligence research, 1996

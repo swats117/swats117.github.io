@@ -1,0 +1,40 @@
+SJ Russell, P Norvig
+Malaysia; Pearson Education Limited,, 2016
+J Shi, J Malik
+IEEE Transactions on pattern analysis and machine intelligence 22 (8), 888-905, 2000
+P Perona, J Malik
+IEEE Transactions on pattern analysis and machine intelligence 12 (7), 629-639, 1990
+S Belongie, J Malik, J Puzicha
+IEEE transactions on pattern analysis and machine intelligence 24 (4), 509-522, 2002
+R Girshick, J Donahue, T Darrell, J Malik
+Proceedings of the IEEE conference on computer vision and pattern …, 2014
+D Martin, C Fowlkes, D Tal, J Malik
+Computer Vision, 2001. ICCV 2001. Proceedings. Eighth IEEE International …, 2001
+PE Debevec, J Malik
+Proceedings of the 24th annual conference on Computer graphics and …, 1997
+PE Debevec, CJ Taylor, J Malik
+Proceedings of the 23rd annual conference on Computer graphics and …, 1996
+P Arbelaez, M Maire, C Fowlkes, J Malik
+IEEE transactions on pattern analysis and machine intelligence 33 (5), 898-916, 2011
+DR Martin, CC Fowlkes, J Malik
+IEEE transactions on pattern analysis and machine intelligence 26 (5), 530-549, 2004
+C Carson, S Belongie, H Greenspan, J Malik
+IEEE Transactions on Pattern Analysis and Machine Intelligence 24 (8), 1026-1038, 2002
+T Leung, J Malik
+International journal of computer vision 43 (1), 29-44, 2001
+AA Efros, AC Berg, G Mori, J Malik
+null, 726, 2003
+X Ren, J Malik
+null, 10, 2003
+J Malik, S Belongie, T Leung, J Shi
+International journal of computer vision 43 (1), 7-27, 2001
+C Fowlkes, S Belongie, F Chung, J Malik
+IEEE transactions on pattern analysis and machine intelligence 26 (2), 214-225, 2004
+H Zhang, AC Berg, M Maire, J Malik
+Computer Vision and Pattern Recognition, 2006 IEEE Computer Society …, 2006
+J Malik, P Perona
+JOSA A 7 (5), 923-932, 1990
+C Carson, M Thomas, S Belongie, JM Hellerstein, J Malik
+International Conference on Advances in Visual Information Systems, 509-517, 1999
+S Maji, AC Berg, J Malik
+Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on …, 2008

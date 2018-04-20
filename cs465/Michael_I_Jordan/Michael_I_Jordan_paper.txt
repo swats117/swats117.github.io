@@ -1,0 +1,20 @@
+Latent dirichlet allocation
+On spectral clustering: Analysis and an algorithm
+Adaptive mixtures of local experts
+Sharing clusters among related groups: Hierarchical Dirichlet processes
+Hierarchical mixtures of experts and the EM algorithm
+An introduction to variational methods for graphical models
+Graphical models, exponential families, and variational inference
+An internal model for sensorimotor integration
+Distance metric learning with application to clustering with side-information
+Learning the kernel matrix with semidefinite programming
+Optimal feedback control as a theory of motor coordination
+Kalman filtering with intermittent observations
+An introduction to MCMC for machine learning
+On discriminative vs. generative classifiers: A comparison of logistic regression and naive bayes
+Matching words and pictures
+Learning in graphical models
+Kernel independent component analysis
+Forward models: Supervised learning with a distal teacher
+Loopy belief propagation for approximate inference: An empirical study
+Active learning with statistical models

@@ -1,0 +1,40 @@
+SJ Russell, P Norvig
+
+J Shi, J Malik
+
+P Perona, J Malik
+
+S Belongie, J Malik, J Puzicha
+
+R Girshick, J Donahue, T Darrell, J Malik
+
+D Martin, C Fowlkes, D Tal, J Malik
+
+PE Debevec, J Malik
+
+PE Debevec, CJ Taylor, J Malik
+
+P Arbelaez, M Maire, C Fowlkes, J Malik
+
+DR Martin, CC Fowlkes, J Malik
+
+C Carson, S Belongie, H Greenspan, J Malik
+
+T Leung, J Malik
+
+AA Efros, AC Berg, G Mori, J Malik
+
+X Ren, J Malik
+
+J Malik, S Belongie, T Leung, J Shi
+
+C Fowlkes, S Belongie, F Chung, J Malik
+
+H Zhang, AC Berg, M Maire, J Malik
+
+J Malik, P Perona
+
+C Carson, M Thomas, S Belongie, JM Hellerstein, J Malik
+
+S Maji, AC Berg, J Malik
+

@@ -1,0 +1,40 @@
+DM Blei, AY Ng, MI Jordan
+
+AY Ng, MI Jordan, Y Weiss
+
+RA Jacobs, MI Jordan, SJ Nowlan, GE Hinton
+
+YW Teh, MI Jordan, MJ Beal, DM Blei
+
+MI Jordan, RA Jacobs
+
+MI Jordan, Z Ghahramani, TS Jaakkola, LK Saul
+
+MJ Wainwright, MI Jordan
+
+DM Wolpert, Z Ghahramani, MI Jordan
+
+EP Xing, MI Jordan, SJ Russell, AY Ng
+
+GRG Lanckriet, N Cristianini, P Bartlett, LE Ghaoui, MI Jordan
+
+E Todorov, MI Jordan
+
+B Sinopoli, L Schenato, M Franceschetti, K Poolla, MI Jordan, SS Sastry
+
+C Andrieu, N De Freitas, A Doucet, MI Jordan
+
+A Ng, MI Jordan
+
+K Barnard, P Duygulu, D Forsyth, N Freitas, DM Blei, MI Jordan
+
+MI Jordan
+
+FR Bach, MI Jordan
+
+MI Jordan, DE Rumelhart
+
+KP Murphy, Y Weiss, MI Jordan
+
+DA Cohn, Z Ghahramani, MI Jordan
+

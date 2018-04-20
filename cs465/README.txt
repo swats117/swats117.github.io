@@ -6,7 +6,7 @@ The files named figure-x.html represent different functionalities offered on the
 3. Abstract 
 4. See what companies are talking about 
 
-The button customize your search lets you add filters to your search. 
+The button customize your search lets you add filters to your search. Click on the search in that page to enable the dropdown in the home page.
 
 For the 'Author' facility, we use d3.js that helped us build a collapsible node structure. The code for this is under the folder 'node-focusable-d3-radial'
 

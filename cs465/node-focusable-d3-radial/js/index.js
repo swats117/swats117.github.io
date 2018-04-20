@@ -1,7 +1,7 @@
 (function() {
   var construct_generations, diagonal, diameter, div, duration, height, i, radius, reconstruct_ancestors, reform_focus, root, store_and_update, svg, tree, treeData, update, zoom;
 
-  treeData = [
+   treeData = [
     {
       name: "Kavi Mahesh",
       children: [
@@ -251,6 +251,7 @@
         return "rotate(180)translate(-8)";
       }
     }).text(function(d) {
+      
       return d.name;
     });
     // Transition nodes to their new position.
@@ -258,10 +259,12 @@
       return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")";
     });
     nodeUpdate.select("circle").attr("r", 10).style("fill", function(d) {
-      if (d._children) {
-        return "black";
+      if (d._children  ) {
+
+        return "Red";
       } else {
-        return "black";
+
+        return "Yellow";
       }
     });
     nodeUpdate.select("text").style("fill-opacity", 1).attr("dy", ".31em").attr("text-anchor", function(d) {

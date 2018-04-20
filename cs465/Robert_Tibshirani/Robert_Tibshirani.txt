@@ -1,0 +1,40 @@
+T Hastie, R Tibshirani, J Friedman
+The elements of statistical learning, 485-585, 2009
+B Efron, RJ Tibshirani
+CRC press, 1994
+R Tibshirani
+Journal of the Royal Statistical Society. Series B (Methodological), 267-288, 1996
+TJ Hastie
+Statistical models in S, 249-307, 2017
+TJ Hastie, RJ Tibshirani
+CRC Press, 1990
+VG Tusher, R Tibshirani, G Chu
+Proceedings of the National Academy of Sciences 98 (9), 5116-5121, 2001
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+Proceedings of the National Academy of Sciences 98 (19), 10869-10874, 2001
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+Nature 403 (6769), 503, 2000
+B Efron
+Siam, 1982
+B Efron, T Hastie, I Johnstone, R Tibshirani
+The Annals of statistics 32 (2), 407-499, 2004
+JD Storey, R Tibshirani
+Proceedings of the National Academy of Sciences 100 (16), 9440-9445, 2003
+J Friedman, T Hastie, R Tibshirani
+The annals of statistics 28 (2), 337-407, 2000
+B Efron, R Tibshirani
+Statistical science, 54-75, 1986
+J Friedman, T Hastie, R Tibshirani
+Journal of statistical software 33 (1), 1, 2010
+R Tibshirani, G Walther, T Hastie
+Journal of the Royal Statistical Society: Series B (Statistical Methodology …, 2001
+B Efron
+Journal of the American statistical Association 82 (397), 171-185, 1987
+E Candes, T Tao
+The Annals of Statistics 35 (6), 2313-2351, 2007
+G James, D Witten, T Hastie, R Tibshirani
+springer, 2013
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+Proceedings of the National Academy of Sciences 99 (10), 6567-6572, 2002
+J Friedman, T Hastie, R Tibshirani
+Biostatistics 9 (3), 432-441, 2008

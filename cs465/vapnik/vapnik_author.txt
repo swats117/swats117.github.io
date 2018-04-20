@@ -1,0 +1,40 @@
+V Vapnik
+
+VN Vapnik
+
+C Cortes, V Vapnik
+
+CJC Burges
+
+I Guyon, A Elisseeff
+
+BE Boser, IM Guyon, VN Vapnik
+
+I Guyon, J Weston, S Barnhill, V Vapnik
+
+VN Vapnik
+
+VN Vapnik, AY Chervonenkis
+
+Y LeCun, B Boser, JS Denker, D Henderson, RE Howard, W Hubbard, ...
+
+O Chapelle, V Vapnik, O Bousquet, S Mukherjee
+
+V Vapnik, SE Golowich, AJ Smola
+
+H Drucker, CJC Burges, L Kaufman, AJ Smola, V Vapnik
+
+Y LeCun, BE Boser, JS Denker, D Henderson, RE Howard, WE Hubbard, ...
+
+H Drucker, D Wu, VN Vapnik
+
+O Chapelle, P Haffner, VN Vapnik
+
+I Guyon, S Gunn, M Nikravesh, LA Zadeh
+
+J Weston, C Watkins
+
+Y LeCun
+
+A Ben-Hur, D Horn, HT Siegelmann, V Vapnik
+

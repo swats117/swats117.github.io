@@ -1,0 +1,20 @@
+Artificial intelligence: a modern approach
+Normalized cuts and image segmentation
+Scale-space and edge detection using anisotropic diffusion
+Shape matching and object recognition using shape contexts
+Rich feature hierarchies for accurate object detection and semantic segmentation
+A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics
+Recovering high dynamic range radiance maps from photographs
+Modeling and rendering architecture from photographs: A hybrid geometry-and image-based approach
+Contour detection and hierarchical image segmentation
+Learning to detect natural image boundaries using local brightness, color, and texture cues
+Blobworld: Image segmentation using expectation-maximization and its application to image querying
+Representing and recognizing the visual appearance of materials using three-dimensional textons
+Recognizing action at a distance
+Learning a classification model for segmentation
+Contour and texture analysis for image segmentation
+Spectral grouping using the Nystrom method
+SVM-KNN: Discriminative nearest neighbor classification for visual category recognition
+Preattentive texture discrimination with early vision mechanisms
+Blobworld: A system for region-based image indexing and retrieval
+Classification using intersection kernel support vector machines is efficient

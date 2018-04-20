@@ -1,0 +1,240 @@
+T Hastie, R Tibshirani, J Friedman
+
+B Efron, RJ Tibshirani
+
+R Tibshirani
+
+TJ Hastie
+
+TJ Hastie, RJ Tibshirani
+
+VG Tusher, R Tibshirani, G Chu
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+
+B Efron
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+JD Storey, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+B Efron, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+B Efron
+
+E Candes, T Tao
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani, J Friedman
+
+B Efron, RJ Tibshirani
+
+R Tibshirani
+
+TJ Hastie
+
+TJ Hastie, RJ Tibshirani
+
+VG Tusher, R Tibshirani, G Chu
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+
+B Efron
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+JD Storey, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+B Efron, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+B Efron
+
+E Candes, T Tao
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani, J Friedman
+
+B Efron, RJ Tibshirani
+
+R Tibshirani
+
+TJ Hastie
+
+TJ Hastie, RJ Tibshirani
+
+VG Tusher, R Tibshirani, G Chu
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+
+B Efron
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+JD Storey, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+B Efron, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+B Efron
+
+E Candes, T Tao
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani, J Friedman
+
+B Efron, RJ Tibshirani
+
+R Tibshirani
+
+TJ Hastie
+
+TJ Hastie, RJ Tibshirani
+
+VG Tusher, R Tibshirani, G Chu
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+
+B Efron
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+JD Storey, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+B Efron, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+B Efron
+
+E Candes, T Tao
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani, J Friedman
+
+B Efron, RJ Tibshirani
+
+R Tibshirani
+
+TJ Hastie
+
+TJ Hastie, RJ Tibshirani
+
+VG Tusher, R Tibshirani, G Chu
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+
+B Efron
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+JD Storey, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+B Efron, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+B Efron
+
+E Candes, T Tao
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani, J Friedman
+
+B Efron, RJ Tibshirani
+
+R Tibshirani
+
+TJ Hastie
+
+TJ Hastie, RJ Tibshirani
+
+VG Tusher, R Tibshirani, G Chu
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+AA Alizadeh, MB Eisen, RE Davis, C Ma, IS Lossos, A Rosenwald, ...
+
+B Efron
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+JD Storey, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+B Efron, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+B Efron
+
+E Candes, T Tao
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+

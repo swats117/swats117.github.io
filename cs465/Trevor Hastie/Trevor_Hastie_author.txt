@@ -1,0 +1,40 @@
+T Hastie, R Tibshirani, J Friedman
+
+TJ Hastie
+
+T Sørlie, CM Perou, R Tibshirani, T Aas, S Geisler, H Johnsen, T Hastie, ...
+
+B Efron, T Hastie, I Johnstone, R Tibshirani
+
+H Zou, T Hastie
+
+J Friedman, T Hastie, R Tibshirani
+
+J Friedman, T Hastie, R Tibshirani
+
+R Tibshirani, G Walther, T Hastie
+
+E Candes, T Tao
+
+JM Chambers, TJ Hastie
+
+G James, D Witten, T Hastie, R Tibshirani
+
+R Tibshirani, T Hastie, B Narasimhan, G Chu
+
+J Friedman, T Hastie, R Tibshirani
+
+O Troyanskaya, M Cantor, G Sherlock, P Brown, T Hastie, R Tibshirani, ...
+
+J Elith, SJ Phillips, T Hastie, M Dudík, YE Chee, CJ Yates
+
+J Friedman, T Hastie, R Tibshirani
+
+J Elith, JR Leathwick, T Hastie
+
+H Zou, T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani
+
+T Hastie, R Tibshirani
+
