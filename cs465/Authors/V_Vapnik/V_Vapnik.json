@@ -1,0 +1,268 @@
+[
+  {
+    "name": "V Vapnik",
+    "children": [
+      {
+        "name": "C Cortes",
+        "children": []
+      },
+      {
+        "name": "CJC Burges",
+        "children": [
+          {
+            "name": "AJ Smola",
+            "size": 4948
+          },
+          {
+            "name": "L Kaufman",
+            "size": 2293
+          },
+          {
+            "name": "H Drucker",
+            "size": 3907
+          }
+        ]
+      },
+      {
+        "name": "VN Vapnik",
+        "children": [
+          {
+            "name": "AY Chervonenkis",
+            "size": 3603
+          },
+          {
+            "name": "D Wu",
+            "size": 1614
+          },
+          {
+            "name": "IM Guyon",
+            "size": 9404
+          },
+          {
+            "name": "H Drucker",
+            "size": 3907
+          },
+          {
+            "name": "O Chapelle",
+            "size": 4304
+          },
+          {
+            "name": "P Haffner",
+            "size": 1607
+          },
+          {
+            "name": "BE Boser",
+            "size": 11090
+          }
+        ]
+      },
+      {
+        "name": "I Guyon",
+        "children": [
+          {
+            "name": "M Nikravesh",
+            "size": 1599
+          },
+          {
+            "name": "S Gunn",
+            "size": 1599
+          },
+          {
+            "name": "J Weston",
+            "size": 7816
+          },
+          {
+            "name": "S Barnhill",
+            "size": 6302
+          },
+          {
+            "name": "LA Zadeh",
+            "size": 1599
+          },
+          {
+            "name": "A Elisseeff",
+            "size": 11032
+          }
+        ]
+      },
+      {
+        "name": "BE Boser",
+        "children": [
+          {
+            "name": "WE Hubbard",
+            "size": 1686
+          },
+          {
+            "name": "Y LeCun",
+            "size": 6264
+          },
+          {
+            "name": "RE Howard",
+            "size": 4878
+          },
+          {
+            "name": "JS Denker",
+            "size": 4878
+          },
+          {
+            "name": "D Henderson",
+            "size": 4878
+          }
+        ]
+      },
+      {
+        "name": "A Elisseeff",
+        "children": []
+      },
+      {
+        "name": "IM Guyon",
+        "children": []
+      },
+      {
+        "name": "J Weston",
+        "children": [
+          {
+            "name": "C Watkins",
+            "size": 1514
+          }
+        ]
+      },
+      {
+        "name": "S Barnhill",
+        "children": []
+      },
+      {
+        "name": "Y LeCun",
+        "children": [
+          {
+            "name": "B Boser",
+            "size": 3192
+          },
+          {
+            "name": "RE Howard",
+            "size": 4878
+          },
+          {
+            "name": "JS Denker",
+            "size": 4878
+          },
+          {
+            "name": "D Henderson",
+            "size": 4878
+          },
+          {
+            "name": "W Hubbard",
+            "size": 3192
+          }
+        ]
+      },
+      {
+        "name": "AJ Smola",
+        "children": [
+          {
+            "name": "SE Golowich",
+            "size": 2655
+          }
+        ]
+      },
+      {
+        "name": "D Henderson",
+        "children": []
+      },
+      {
+        "name": "JS Denker",
+        "children": []
+      },
+      {
+        "name": "RE Howard",
+        "children": []
+      },
+      {
+        "name": "O Chapelle",
+        "children": [
+          {
+            "name": "S Mukherjee",
+            "size": 2697
+          },
+          {
+            "name": "O Bousquet",
+            "size": 2697
+          }
+        ]
+      },
+      {
+        "name": "H Drucker",
+        "children": []
+      },
+      {
+        "name": "AY Chervonenkis",
+        "children": []
+      },
+      {
+        "name": "W Hubbard",
+        "children": []
+      },
+      {
+        "name": "B Boser",
+        "children": []
+      },
+      {
+        "name": "O Bousquet",
+        "children": []
+      },
+      {
+        "name": "S Mukherjee",
+        "children": []
+      },
+      {
+        "name": "SE Golowich",
+        "children": []
+      },
+      {
+        "name": "L Kaufman",
+        "children": []
+      },
+      {
+        "name": "WE Hubbard",
+        "children": []
+      },
+      {
+        "name": "D Wu",
+        "children": []
+      },
+      {
+        "name": "P Haffner",
+        "children": []
+      },
+      {
+        "name": "M Nikravesh",
+        "children": []
+      },
+      {
+        "name": "LA Zadeh",
+        "children": []
+      },
+      {
+        "name": "S Gunn",
+        "children": []
+      },
+      {
+        "name": "C Watkins",
+        "children": []
+      },
+      {
+        "name": "D Horn",
+        "children": [
+          {
+            "name": "HT Siegelmann",
+            "size": 1293
+          },
+          {
+            "name": "A Ben-Hur",
+            "size": 1293
+          }
+        ]
+      }
+    ]
+  }
+]

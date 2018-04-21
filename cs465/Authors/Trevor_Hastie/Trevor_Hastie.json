@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Trevor Hastie",
+    "children": [
+      {
+        "name": "R Tibshirani",
+        "children": [
+          {
+            "name": "H Johnsen",
+            "size": 11502
+          },
+          {
+            "name": "B Narasimhan",
+            "size": 2637
+          },
+          {
+            "name": "B Efron",
+            "size": 7505
+          },
+          {
+            "name": "J Friedman",
+            "size": 53880
+          },
+          {
+            "name": "T S\u00f8rlie",
+            "size": 11502
+          },
+          {
+            "name": "G Sherlock",
+            "size": 2612
+          },
+          {
+            "name": "P Brown",
+            "size": 2612
+          },
+          {
+            "name": "G Chu",
+            "size": 2637
+          },
+          {
+            "name": "G Walther",
+            "size": 3061
+          },
+          {
+            "name": "M Cantor",
+            "size": 2612
+          },
+          {
+            "name": "O Troyanskaya",
+            "size": 2612
+          },
+          {
+            "name": "T Aas",
+            "size": 11502
+          },
+          {
+            "name": "S Geisler",
+            "size": 11502
+          },
+          {
+            "name": "D Witten",
+            "size": 2673
+          },
+          {
+            "name": "H Zou",
+            "size": 9252
+          },
+          {
+            "name": "I Johnstone",
+            "size": 7505
+          },
+          {
+            "name": "G James",
+            "size": 2673
+          },
+          {
+            "name": "CM Perou",
+            "size": 11502
+          }
+        ]
+      },
+      {
+        "name": "J Friedman",
+        "children": []
+      },
+      {
+        "name": "TJ Hastie",
+        "children": [
+          {
+            "name": "JM Chambers",
+            "size": 2740
+          }
+        ]
+      },
+      {
+        "name": "T S\u00f8rlie",
+        "children": []
+      },
+      {
+        "name": "S Geisler",
+        "children": []
+      },
+      {
+        "name": "H Johnsen",
+        "children": []
+      },
+      {
+        "name": "CM Perou",
+        "children": []
+      },
+      {
+        "name": "T Aas",
+        "children": []
+      },
+      {
+        "name": "H Zou",
+        "children": []
+      },
+      {
+        "name": "I Johnstone",
+        "children": []
+      },
+      {
+        "name": "B Efron",
+        "children": []
+      },
+      {
+        "name": "J Elith",
+        "children": [
+          {
+            "name": "YE Chee",
+            "size": 2576
+          },
+          {
+            "name": "JR Leathwick",
+            "size": 2053
+          },
+          {
+            "name": "CJ Yates",
+            "size": 2576
+          },
+          {
+            "name": "M Dud\u00edk",
+            "size": 2576
+          },
+          {
+            "name": "SJ Phillips",
+            "size": 2576
+          }
+        ]
+      },
+      {
+        "name": "G Walther",
+        "children": []
+      },
+      {
+        "name": "T Tao",
+        "children": [
+          {
+            "name": "E Candes",
+            "size": 2763
+          }
+        ]
+      }
+    ]
+  }
+]

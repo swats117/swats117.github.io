@@ -1,10 +1,14 @@
 import os
 import json
 
-author_name = "Kavi_Mahesh"
+author_name = "Robert_Tibshirani"
 
 #                 =  first letter of first name      +    last name
-author_paper_name = author_name.split("_")[0][0] + " " + author_name.split("_")[1]
+authors_initials = ""
+for i in range(len(author_name.split("_"))-1):
+	authors_initials = authors_initials + author_name.split("_")[i][0]
+
+author_paper_name =  authors_initials + " " + author_name.split("_")[len(author_name.split("_"))-1]
 author_proper_name = author_name.replace("_"," ")
 os.chdir("./"+author_name)
 
