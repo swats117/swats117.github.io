@@ -1,0 +1,20 @@
+A situated ontology for practical NLP
+Ontology development for machine translation: Ideology and methodology
+Semantic analysis in the Mikrokosmos machine translation project
+Finger detection for sign language recognition
+Oracle at Trec8: A Lexical Approach.
+An assessment of Cyc for natural language processing
+Automated method for quantitative measurement of benefits in a plurality of self-assessing, knowledge sharing communities
+Automated integration of terminological information into a knowledge base
+What is the K in KM Technology
+Semantic classification for practical natural language processing
+Knowledge criteria for organization design
+Semantics in action
+Meaning representation for knowledge sharing in practical machine translation
+Lexical acquisition with WordNet and the Mikrokosmos Ontology
+Hypertext summary extraction for fast document browsing
+Lexicons in the Mikrokosmos project
+Hunter-gatherer: Three search techniques integrated for natural language semantics
+Ten steps to maturity in knowledge management: Lessons in economy
+MINDS-Multilingual interactive document summarization
+Word Sense Disambiguation: Why statistics when we have these numbers?
