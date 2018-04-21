@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Michael I Jordan",
+    "children": [
+      {
+        "name": "AY Ng",
+        "children": [
+          {
+            "name": "Y Weiss",
+            "size": 8201
+          },
+          {
+            "name": "EP Xing",
+            "size": 2572
+          },
+          {
+            "name": "DM Blei",
+            "size": 27544
+          },
+          {
+            "name": "SJ Russell",
+            "size": 2572
+          }
+        ]
+      },
+      {
+        "name": "DM Blei",
+        "children": [
+          {
+            "name": "K Barnard",
+            "size": 1765
+          },
+          {
+            "name": "P Duygulu",
+            "size": 1765
+          },
+          {
+            "name": "MJ Beal",
+            "size": 3321
+          },
+          {
+            "name": "N Freitas",
+            "size": 1765
+          },
+          {
+            "name": "D Forsyth",
+            "size": 1765
+          },
+          {
+            "name": "YW Teh",
+            "size": 3321
+          }
+        ]
+      },
+      {
+        "name": "Y Weiss",
+        "children": [
+          {
+            "name": "KP Murphy",
+            "size": 1667
+          }
+        ]
+      },
+      {
+        "name": "Z Ghahramani",
+        "children": [
+          {
+            "name": "DA Cohn",
+            "size": 1660
+          },
+          {
+            "name": "DM Wolpert",
+            "size": 2596
+          },
+          {
+            "name": "LK Saul",
+            "size": 2821
+          },
+          {
+            "name": "TS Jaakkola",
+            "size": 2821
+          }
+        ]
+      },
+      {
+        "name": "RA Jacobs",
+        "children": [
+          {
+            "name": "SJ Nowlan",
+            "size": 3694
+          },
+          {
+            "name": "GE Hinton",
+            "size": 3694
+          }
+        ]
+      },
+      {
+        "name": "GE Hinton",
+        "children": []
+      },
+      {
+        "name": "SJ Nowlan",
+        "children": []
+      },
+      {
+        "name": "MJ Beal",
+        "children": []
+      },
+      {
+        "name": "YW Teh",
+        "children": []
+      },
+      {
+        "name": "LK Saul",
+        "children": []
+      },
+      {
+        "name": "TS Jaakkola",
+        "children": []
+      },
+      {
+        "name": "MJ Wainwright",
+        "children": []
+      },
+      {
+        "name": "DM Wolpert",
+        "children": []
+      },
+      {
+        "name": "EP Xing",
+        "children": []
+      },
+      {
+        "name": "SJ Russell",
+        "children": []
+      },
+      {
+        "name": "GRG Lanckriet",
+        "children": [
+          {
+            "name": "LE Ghaoui",
+            "size": 2401
+          },
+          {
+            "name": "P Bartlett",
+            "size": 2401
+          },
+          {
+            "name": "N Cristianini",
+            "size": 2401
+          }
+        ]
+      },
+      {
+        "name": "N Cristianini",
+        "children": []
+      },
+      {
+        "name": "LE Ghaoui",
+        "children": []
+      },
+      {
+        "name": "P Bartlett",
+        "children": []
+      },
+      {
+        "name": "E Todorov",
+        "children": []
+      },
+      {
+        "name": "SS Sastry",
+        "children": [
+          {
+            "name": "M Franceschetti",
+            "size": 1942
+          },
+          {
+            "name": "B Sinopoli",
+            "size": 1942
+          },
+          {
+            "name": "L Schenato",
+            "size": 1942
+          },
+          {
+            "name": "K Poolla",
+            "size": 1942
+          }
+        ]
+      },
+      {
+        "name": "L Schenato",
+        "children": []
+      },
+      {
+        "name": "K Poolla",
+        "children": []
+      },
+      {
+        "name": "M Franceschetti",
+        "children": []
+      },
+      {
+        "name": "B Sinopoli",
+        "children": []
+      },
+      {
+        "name": "C Andrieu",
+        "children": [
+          {
+            "name": "A Doucet",
+            "size": 1898
+          },
+          {
+            "name": "N De Freitas",
+            "size": 1898
+          }
+        ]
+      },
+      {
+        "name": "N De Freitas",
+        "children": []
+      },
+      {
+        "name": "A Doucet",
+        "children": []
+      },
+      {
+        "name": "A Ng",
+        "children": []
+      },
+      {
+        "name": "D Forsyth",
+        "children": []
+      },
+      {
+        "name": "N Freitas",
+        "children": []
+      },
+      {
+        "name": "P Duygulu",
+        "children": []
+      },
+      {
+        "name": "K Barnard",
+        "children": []
+      },
+      {
+        "name": "FR Bach",
+        "children": []
+      },
+      {
+        "name": "DE Rumelhart",
+        "children": []
+      }
+    ]
+  }
+]

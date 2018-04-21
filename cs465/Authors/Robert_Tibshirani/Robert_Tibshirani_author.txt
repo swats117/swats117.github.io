@@ -4,8 +4,6 @@ B Efron, RJ Tibshirani
 
 R Tibshirani
 
-TJ Hastie
-
 TJ Hastie, RJ Tibshirani
 
 VG Tusher, R Tibshirani, G Chu
