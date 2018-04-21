@@ -258,7 +258,7 @@
     nodeUpdate = node.transition().duration(duration).attr("transform", function(d) {
       return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")";
     });
-    nodeUpdate.select("circle").attr("r", 10).style("fill", function(d) {
+    nodeUpdate.select("circle").attr("r", function(d) {return d.size/1000}).style("fill", function(d) {
     
       if (d._children  ) {
 
