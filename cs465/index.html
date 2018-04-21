@@ -91,8 +91,9 @@ div.topnav{
  
     <div class="search-container">
     
-    <select class="selectpicker">
-    <optgroup label="Author (What the user would type in)">
+    <select id ="selector" class="selectpicker" >
+    <option> Click on Author or Title or Abstract to generate selectable options </option>
+    <!-- <optgroup id ="op1" label="Author (What the user would type in)">
     <option>Kavi Mahesh</option>
     <option>Vapnik</option>
     <option>Robert_Tibshirani</option>
@@ -102,22 +103,21 @@ div.topnav{
     <option>Josh_Cogan</option>
 
     </optgroup>
-    <optgroup label="Paper title (What the user would typically type in)">
+    <optgroup id = "op2" label="Paper title (What the user would typically type in)">
     <option>A situated ontology for practical NLP</option>
     <option>The Nature of Statistical Learning Theory</option>
     <option>On the uniform convergence of relative frequencies of events to their probabilities</option>
     </optgroup>
 
     </optgroup>
-    <optgroup label="Keywords in an Abstract (What the user would typically type in)">
+    <optgroup id="op3" label="Keywords in an Abstract (What the user would typically type in)">
     <option>Statistical learning </option>
     <option>IoT</option>
     <option>Machine Learning</option>
     <option>Sensor networks</option>
 
     </optgroup>
-
-
+    -->
 
 
     </select>
@@ -126,10 +126,10 @@ div.topnav{
     </div>
     </div>
     
-    <p class = "bu1" ><button  type="button" class="btn btn-dark" onclick="location.href = 'node-focusable-d3-radial/index-1.html'">Author</button> <p>
-       <p class = "bu2" ><button type="button" class="btn btn-dark" onclick="location.href ='figures-4.html' ">Title</button> <p>
-         <p class = "bu3" ><button type="button" class="btn btn-dark" onclick="location.href ='figures-4.html' ">Abstract</button> <p>
-           <p class = "bu4" ><button type="button" class="btn btn-dark" onclick="location.href ='figure-5.html' ">See what companies are talking about</button> <p>
+    <p class = "bu1" ><button  type="button" class="btn btn-dark" onclick="fn1()">Author</button> <p>
+       <p class = "bu2" ><button type="button" class="btn btn-dark" onclick="fn2()">Title</button> <p>
+         <p class = "bu3" ><button type="button" class="btn btn-dark" onclick="fn3()">Abstract</button> <p>
+           <p class = "bu4" ><button type="button" class="btn btn-dark" onclick="location.href='figure-5.html'">See what companies are talking about</button> <p>
     <!--<button margin-left = "150px" type="button" class="btn btn-dark">Author</button>-->
  
 
@@ -143,8 +143,109 @@ div.topnav{
 
     <hr>
 
-    <!-- Footer -->
-    
+    <!-- Functions -->
+    <script> 
+      function fn1()
+      {
+        var myNode = document.getElementById("selector");
+        while (myNode.firstChild) {
+        myNode.removeChild(myNode.firstChild);
+        }
+        var select1 = document.getElementById("selector");
+        var opt1 = document.createElement('option');
+        opt1.value = "Kavi Mahesh";  
+        opt1.innerHTML = "Kavi Mahesh";
+        select1.appendChild(opt1);
+
+        var opt2 = document.createElement('option');
+        opt2.value = "Vapnik";  
+        opt2.innerHTML = "Vapnik";
+        select1.appendChild(opt2);
+
+        var opt3 = document.createElement('option');
+        opt3.value = "Robert_Tibshirani";  
+        opt3.innerHTML = "Robert_Tibshirani";
+        select1.appendChild(opt3);
+
+        var opt4 = document.createElement('option');
+        opt4.value = "Jitendra Malik";  
+        opt4.innerHTML = "Jitendra Malik";
+        select1.appendChild(opt4);
+      
+        var opt5 = document.createElement('option');
+        opt5.value = "Michael_I_Jordan";  
+        opt5.innerHTML = "Michael_I_Jordan";
+        select1.appendChild(opt5);
+
+        var opt6 = document.createElement('option');
+        opt6.value = "Trevor Hastie";  
+        opt6.innerHTML = "Trevor Hastie";
+        select1.appendChild(opt6);
+
+        var opt7 = document.createElement('option');
+        opt7.value = "Josh_Cogan";  
+        opt7.innerHTML = "Josh_Cogan";
+        select1.appendChild(opt7);
+
+
+
+      }
+      function fn2()
+      {
+        var myNode = document.getElementById("selector");
+        while (myNode.firstChild) {
+        myNode.removeChild(myNode.firstChild);
+        }
+        var select1 = document.getElementById("selector");
+        var opt1 = document.createElement('option');
+        opt1.value = "A situated ontology for practical NLP";  
+        opt1.innerHTML = "A situated ontology for practical NLP";
+        select1.appendChild(opt1);
+
+        var opt2 = document.createElement('option');
+        opt2.value = "The Nature of Statistical Learning Theory";  
+        opt2.innerHTML = "The Nature of Statistical Learning Theory";
+        select1.appendChild(opt2);
+
+        var opt3 = document.createElement('option');
+        opt3.value = "On the uniform convergence of relative frequencies of events to their probabilities";  
+        opt3.innerHTML = "On the uniform convergence of relative frequencies of events to their probabilities";
+        select1.appendChild(opt3);
+
+      
+      }
+
+       function fn3()
+      {
+        var myNode = document.getElementById("selector");
+        while (myNode.firstChild) {
+        myNode.removeChild(myNode.firstChild);
+        }
+        var select1 = document.getElementById("selector");
+        var opt1 = document.createElement('option');
+        opt1.value = "Statistical learning";  
+        opt1.innerHTML = "Statistical learning ";
+        select1.appendChild(opt1);
+
+        var opt2 = document.createElement('option');
+        opt2.value = "IoT";  
+        opt2.innerHTML = "IoT";
+        select1.appendChild(opt2);
+
+        var opt3 = document.createElement('option');
+        opt3.value = "Machine Learning";  
+        opt3.innerHTML = "Machine Learning";
+        select1.appendChild(opt3);
+
+        var opt3 = document.createElement('option');
+        opt3.value = "Sensor networks";  
+        opt3.innerHTML = "Sensor networks";
+        select1.appendChild(opt3);
+
+      
+      }
+
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
