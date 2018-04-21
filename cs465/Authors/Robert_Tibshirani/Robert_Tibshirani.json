@@ -4,33 +4,38 @@
     "children": [
       {
         "name": "T Hastie",
+        "size": 79044,
         "children": [
           {
             "name": "B Narasimhan",
             "size": 2637
           },
           {
-            "name": "G James",
-            "size": 2673
+            "name": "I Johnstone",
+            "size": 7505
           },
           {
             "name": "G Chu",
             "size": 14625
           },
           {
-            "name": "T S\u00f8rlie",
+            "name": "CM Perou",
             "size": 11502
+          },
+          {
+            "name": "B Efron",
+            "size": 61944
+          },
+          {
+            "name": "G Walther",
+            "size": 3061
           },
           {
             "name": "D Witten",
             "size": 2673
           },
           {
-            "name": "CM Perou",
-            "size": 11502
-          },
-          {
-            "name": "H Johnsen",
+            "name": "T S\u00f8rlie",
             "size": 11502
           },
           {
@@ -38,29 +43,26 @@
             "size": 51666
           },
           {
-            "name": "G Walther",
-            "size": 3061
-          },
-          {
-            "name": "S Geisler",
+            "name": "H Johnsen",
             "size": 11502
-          },
-          {
-            "name": "I Johnstone",
-            "size": 7505
           },
           {
             "name": "T Aas",
             "size": 11502
           },
           {
-            "name": "B Efron",
-            "size": 61944
+            "name": "G James",
+            "size": 2673
+          },
+          {
+            "name": "S Geisler",
+            "size": 11502
           }
         ]
       },
       {
         "name": "B Efron",
+        "size": 61944,
         "children": [
           {
             "name": "RJ Tibshirani",
@@ -70,6 +72,7 @@
       },
       {
         "name": "RJ Tibshirani",
+        "size": 52342,
         "children": [
           {
             "name": "TJ Hastie",
@@ -79,14 +82,17 @@
       },
       {
         "name": "J Friedman",
+        "size": 51666,
         "children": []
       },
       {
         "name": "TJ Hastie",
+        "size": 15292,
         "children": []
       },
       {
         "name": "G Chu",
+        "size": 14625,
         "children": [
           {
             "name": "VG Tusher",
@@ -96,87 +102,103 @@
       },
       {
         "name": "VG Tusher",
-        "children": []
-      },
-      {
-        "name": "T Aas",
-        "children": []
-      },
-      {
-        "name": "H Johnsen",
-        "children": []
-      },
-      {
-        "name": "T S\u00f8rlie",
-        "children": []
-      },
-      {
-        "name": "S Geisler",
+        "size": 11988,
         "children": []
       },
       {
         "name": "CM Perou",
+        "size": 11502,
         "children": []
       },
       {
-        "name": "A Rosenwald",
+        "name": "S Geisler",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "T Aas",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "H Johnsen",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "T S\u00f8rlie",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "C Ma",
+        "size": 9535,
         "children": [
-          {
-            "name": "MB Eisen",
-            "size": 9535
-          },
           {
             "name": "IS Lossos",
             "size": 9535
           },
           {
-            "name": "AA Alizadeh",
-            "size": 9535
-          },
-          {
-            "name": "C Ma",
+            "name": "A Rosenwald",
             "size": 9535
           },
           {
             "name": "RE Davis",
             "size": 9535
+          },
+          {
+            "name": "MB Eisen",
+            "size": 9535
+          },
+          {
+            "name": "AA Alizadeh",
+            "size": 9535
           }
         ]
       },
       {
-        "name": "IS Lossos",
-        "children": []
-      },
-      {
         "name": "MB Eisen",
-        "children": []
-      },
-      {
-        "name": "C Ma",
-        "children": []
-      },
-      {
-        "name": "RE Davis",
+        "size": 9535,
         "children": []
       },
       {
         "name": "AA Alizadeh",
+        "size": 9535,
+        "children": []
+      },
+      {
+        "name": "A Rosenwald",
+        "size": 9535,
+        "children": []
+      },
+      {
+        "name": "RE Davis",
+        "size": 9535,
+        "children": []
+      },
+      {
+        "name": "IS Lossos",
+        "size": 9535,
         "children": []
       },
       {
         "name": "I Johnstone",
+        "size": 7505,
         "children": []
       },
       {
         "name": "JD Storey",
+        "size": 7268,
         "children": []
       },
       {
         "name": "G Walther",
+        "size": 3061,
         "children": []
       },
       {
         "name": "T Tao",
+        "size": 2763,
         "children": [
           {
             "name": "E Candes",
@@ -184,6 +206,7 @@
           }
         ]
       }
-    ]
+    ],
+    "size": 20742
   }
 ]

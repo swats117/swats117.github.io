@@ -4,45 +4,46 @@
     "children": [
       {
         "name": "R Tibshirani",
+        "size": 89189,
         "children": [
           {
-            "name": "H Johnsen",
-            "size": 11502
+            "name": "M Cantor",
+            "size": 2612
           },
           {
             "name": "B Narasimhan",
             "size": 2637
           },
           {
-            "name": "B Efron",
+            "name": "I Johnstone",
             "size": 7505
-          },
-          {
-            "name": "J Friedman",
-            "size": 53880
-          },
-          {
-            "name": "T S\u00f8rlie",
-            "size": 11502
-          },
-          {
-            "name": "G Sherlock",
-            "size": 2612
-          },
-          {
-            "name": "P Brown",
-            "size": 2612
           },
           {
             "name": "G Chu",
             "size": 2637
           },
           {
+            "name": "CM Perou",
+            "size": 11502
+          },
+          {
+            "name": "B Efron",
+            "size": 7505
+          },
+          {
             "name": "G Walther",
             "size": 3061
           },
           {
-            "name": "M Cantor",
+            "name": "P Brown",
+            "size": 2612
+          },
+          {
+            "name": "H Zou",
+            "size": 9252
+          },
+          {
+            "name": "G Sherlock",
             "size": 2612
           },
           {
@@ -50,41 +51,43 @@
             "size": 2612
           },
           {
-            "name": "T Aas",
-            "size": 11502
-          },
-          {
-            "name": "S Geisler",
-            "size": 11502
-          },
-          {
             "name": "D Witten",
             "size": 2673
           },
           {
-            "name": "H Zou",
-            "size": 9252
+            "name": "T S\u00f8rlie",
+            "size": 11502
           },
           {
-            "name": "I Johnstone",
-            "size": 7505
+            "name": "J Friedman",
+            "size": 53880
+          },
+          {
+            "name": "H Johnsen",
+            "size": 11502
+          },
+          {
+            "name": "T Aas",
+            "size": 11502
           },
           {
             "name": "G James",
             "size": 2673
           },
           {
-            "name": "CM Perou",
+            "name": "S Geisler",
             "size": 11502
           }
         ]
       },
       {
         "name": "J Friedman",
+        "size": 53880,
         "children": []
       },
       {
         "name": "TJ Hastie",
+        "size": 18032,
         "children": [
           {
             "name": "JM Chambers",
@@ -93,42 +96,55 @@
         ]
       },
       {
-        "name": "T S\u00f8rlie",
+        "name": "CM Perou",
+        "size": 11502,
         "children": []
       },
       {
         "name": "S Geisler",
-        "children": []
-      },
-      {
-        "name": "H Johnsen",
-        "children": []
-      },
-      {
-        "name": "CM Perou",
+        "size": 11502,
         "children": []
       },
       {
         "name": "T Aas",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "H Johnsen",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "T S\u00f8rlie",
+        "size": 11502,
         "children": []
       },
       {
         "name": "H Zou",
-        "children": []
-      },
-      {
-        "name": "I Johnstone",
+        "size": 9252,
         "children": []
       },
       {
         "name": "B Efron",
+        "size": 7505,
+        "children": []
+      },
+      {
+        "name": "I Johnstone",
+        "size": 7505,
         "children": []
       },
       {
         "name": "J Elith",
+        "size": 4629,
         "children": [
           {
             "name": "YE Chee",
+            "size": 2576
+          },
+          {
+            "name": "SJ Phillips",
             "size": 2576
           },
           {
@@ -142,19 +158,17 @@
           {
             "name": "M Dud\u00edk",
             "size": 2576
-          },
-          {
-            "name": "SJ Phillips",
-            "size": 2576
           }
         ]
       },
       {
         "name": "G Walther",
+        "size": 3061,
         "children": []
       },
       {
         "name": "T Tao",
+        "size": 2763,
         "children": [
           {
             "name": "E Candes",
@@ -162,6 +176,7 @@
           }
         ]
       }
-    ]
+    ],
+    "size": 13113
   }
 ]

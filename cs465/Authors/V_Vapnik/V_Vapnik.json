@@ -4,15 +4,13 @@
     "children": [
       {
         "name": "C Cortes",
+        "size": 30221,
         "children": []
       },
       {
         "name": "CJC Burges",
+        "size": 21273,
         "children": [
-          {
-            "name": "AJ Smola",
-            "size": 4948
-          },
           {
             "name": "L Kaufman",
             "size": 2293
@@ -20,45 +18,63 @@
           {
             "name": "H Drucker",
             "size": 3907
+          },
+          {
+            "name": "AJ Smola",
+            "size": 4948
           }
         ]
       },
       {
         "name": "VN Vapnik",
+        "size": 20429,
         "children": [
           {
-            "name": "AY Chervonenkis",
-            "size": 3603
-          },
-          {
-            "name": "D Wu",
-            "size": 1614
+            "name": "H Drucker",
+            "size": 3907
           },
           {
             "name": "IM Guyon",
             "size": 9404
           },
           {
-            "name": "H Drucker",
-            "size": 3907
+            "name": "AY Chervonenkis",
+            "size": 3603
           },
           {
             "name": "O Chapelle",
             "size": 4304
           },
           {
+            "name": "BE Boser",
+            "size": 11090
+          },
+          {
             "name": "P Haffner",
             "size": 1607
           },
           {
-            "name": "BE Boser",
-            "size": 11090
+            "name": "D Wu",
+            "size": 1614
           }
         ]
       },
       {
         "name": "I Guyon",
+        "size": 18933,
         "children": [
+          {
+            "name": "LA Zadeh",
+            "size": 1599
+          },
+          {
+            "name": "S Barnhill",
+            "size": 6302
+          },
+          {
+            "name": "A Elisseeff",
+            "size": 11032
+          },
           {
             "name": "M Nikravesh",
             "size": 1599
@@ -70,34 +86,23 @@
           {
             "name": "J Weston",
             "size": 7816
-          },
-          {
-            "name": "S Barnhill",
-            "size": 6302
-          },
-          {
-            "name": "LA Zadeh",
-            "size": 1599
-          },
-          {
-            "name": "A Elisseeff",
-            "size": 11032
           }
         ]
       },
       {
         "name": "BE Boser",
+        "size": 11090,
         "children": [
           {
             "name": "WE Hubbard",
             "size": 1686
           },
           {
-            "name": "Y LeCun",
-            "size": 6264
+            "name": "RE Howard",
+            "size": 4878
           },
           {
-            "name": "RE Howard",
+            "name": "D Henderson",
             "size": 4878
           },
           {
@@ -105,21 +110,24 @@
             "size": 4878
           },
           {
-            "name": "D Henderson",
-            "size": 4878
+            "name": "Y LeCun",
+            "size": 6264
           }
         ]
       },
       {
         "name": "A Elisseeff",
+        "size": 11032,
         "children": []
       },
       {
         "name": "IM Guyon",
+        "size": 9404,
         "children": []
       },
       {
         "name": "J Weston",
+        "size": 7816,
         "children": [
           {
             "name": "C Watkins",
@@ -129,10 +137,12 @@
       },
       {
         "name": "S Barnhill",
+        "size": 6302,
         "children": []
       },
       {
         "name": "Y LeCun",
+        "size": 6264,
         "children": [
           {
             "name": "B Boser",
@@ -143,21 +153,22 @@
             "size": 4878
           },
           {
-            "name": "JS Denker",
-            "size": 4878
+            "name": "W Hubbard",
+            "size": 3192
           },
           {
             "name": "D Henderson",
             "size": 4878
           },
           {
-            "name": "W Hubbard",
-            "size": 3192
+            "name": "JS Denker",
+            "size": 4878
           }
         ]
       },
       {
         "name": "AJ Smola",
+        "size": 4948,
         "children": [
           {
             "name": "SE Golowich",
@@ -166,92 +177,112 @@
         ]
       },
       {
-        "name": "D Henderson",
+        "name": "JS Denker",
+        "size": 4878,
         "children": []
       },
       {
-        "name": "JS Denker",
+        "name": "D Henderson",
+        "size": 4878,
         "children": []
       },
       {
         "name": "RE Howard",
+        "size": 4878,
         "children": []
       },
       {
         "name": "O Chapelle",
+        "size": 4304,
         "children": [
           {
-            "name": "S Mukherjee",
+            "name": "O Bousquet",
             "size": 2697
           },
           {
-            "name": "O Bousquet",
+            "name": "S Mukherjee",
             "size": 2697
           }
         ]
       },
       {
         "name": "H Drucker",
+        "size": 3907,
         "children": []
       },
       {
         "name": "AY Chervonenkis",
-        "children": []
-      },
-      {
-        "name": "W Hubbard",
+        "size": 3603,
         "children": []
       },
       {
         "name": "B Boser",
+        "size": 3192,
         "children": []
       },
       {
-        "name": "O Bousquet",
+        "name": "W Hubbard",
+        "size": 3192,
         "children": []
       },
       {
         "name": "S Mukherjee",
+        "size": 2697,
+        "children": []
+      },
+      {
+        "name": "O Bousquet",
+        "size": 2697,
         "children": []
       },
       {
         "name": "SE Golowich",
+        "size": 2655,
         "children": []
       },
       {
         "name": "L Kaufman",
+        "size": 2293,
         "children": []
       },
       {
         "name": "WE Hubbard",
+        "size": 1686,
         "children": []
       },
       {
         "name": "D Wu",
+        "size": 1614,
         "children": []
       },
       {
         "name": "P Haffner",
+        "size": 1607,
         "children": []
       },
       {
         "name": "M Nikravesh",
+        "size": 1599,
         "children": []
       },
       {
         "name": "LA Zadeh",
+        "size": 1599,
         "children": []
       },
       {
         "name": "S Gunn",
+        "size": 1599,
         "children": []
       },
       {
         "name": "C Watkins",
+        "size": 1514,
         "children": []
       },
       {
         "name": "D Horn",
+        "size": 1293,
         "children": [
           {
             "name": "HT Siegelmann",
@@ -263,6 +294,7 @@
           }
         ]
       }
-    ]
+    ],
+    "size": 9618
   }
 ]
