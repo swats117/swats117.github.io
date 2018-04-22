@@ -4,23 +4,8 @@
     "children": [
       {
         "name": "S Nirenburg",
+        "size": 646,
         "children": [
-          {
-            "name": "R Zajaz",
-            "size": 22
-          },
-          {
-            "name": "T O'Hara",
-            "size": 32
-          },
-          {
-            "name": "V Raskin",
-            "size": 51
-          },
-          {
-            "name": "S Beale",
-            "size": 226
-          },
           {
             "name": "B Onyshkevych",
             "size": 51
@@ -30,45 +15,67 @@
             "size": 85
           },
           {
+            "name": "S Beale",
+            "size": 226
+          },
+          {
             "name": "J Cowie",
             "size": 66
           },
           {
+            "name": "T O'Hara",
+            "size": 32
+          },
+          {
+            "name": "R Zajaz",
+            "size": 22
+          },
+          {
             "name": "D Farwell",
             "size": 44
+          },
+          {
+            "name": "V Raskin",
+            "size": 51
           }
         ]
       },
       {
         "name": "S Beale",
+        "size": 226,
         "children": []
       },
       {
-        "name": "L Wilson",
+        "name": "S Helmreich",
+        "size": 205,
         "children": [
           {
-            "name": "S Helmreich",
+            "name": "L Wilson",
             "size": 205
           }
         ]
       },
       {
-        "name": "S Helmreich",
+        "name": "L Wilson",
+        "size": 205,
         "children": []
       },
       {
         "name": "JK Suresh",
+        "size": 101,
         "children": []
       },
       {
         "name": "E Viegas",
+        "size": 85,
         "children": []
       },
       {
-        "name": "S Sudheender",
+        "name": "S Mahishi",
+        "size": 75,
         "children": [
           {
-            "name": "J Ravikiran",
+            "name": "S Sudheender",
             "size": 75
           },
           {
@@ -76,45 +83,53 @@
             "size": 75
           },
           {
-            "name": "R Dheeraj",
+            "name": "J Ravikiran",
             "size": 75
           },
           {
-            "name": "S Mahishi",
+            "name": "R Dheeraj",
             "size": 75
           }
         ]
       },
       {
-        "name": "R Dheeraj",
+        "name": "NV Pujari",
+        "size": 75,
         "children": []
       },
       {
-        "name": "S Mahishi",
+        "name": "R Dheeraj",
+        "size": 75,
         "children": []
       },
       {
         "name": "J Ravikiran",
+        "size": 75,
         "children": []
       },
       {
-        "name": "NV Pujari",
+        "name": "S Sudheender",
+        "size": 75,
         "children": []
       },
       {
         "name": "J Cowie",
+        "size": 66,
         "children": []
       },
       {
         "name": "V Raskin",
+        "size": 51,
         "children": []
       },
       {
         "name": "B Onyshkevych",
+        "size": 51,
         "children": []
       },
       {
         "name": "P Dixon",
+        "size": 49,
         "children": [
           {
             "name": "J Kud",
@@ -124,25 +139,29 @@
       },
       {
         "name": "J Kud",
+        "size": 49,
         "children": []
       },
       {
         "name": "D Farwell",
+        "size": 44,
         "children": []
       },
       {
-        "name": "S Kapanipathy",
+        "name": "SC Sen",
+        "size": 43,
         "children": [
           {
-            "name": "SC Sen",
+            "name": "V Kochikar",
             "size": 43
           },
           {
-            "name": "V Kochikar",
+            "name": "S Kapanipathy",
             "size": 43
           }
         ]
       }
-    ]
+    ],
+    "size": 153
   }
 ]

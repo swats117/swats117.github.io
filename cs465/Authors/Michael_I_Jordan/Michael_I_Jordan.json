@@ -4,6 +4,7 @@
     "children": [
       {
         "name": "AY Ng",
+        "size": 31564,
         "children": [
           {
             "name": "Y Weiss",
@@ -25,10 +26,19 @@
       },
       {
         "name": "DM Blei",
+        "size": 27544,
         "children": [
           {
-            "name": "K Barnard",
+            "name": "D Forsyth",
             "size": 1765
+          },
+          {
+            "name": "N Freitas",
+            "size": 1765
+          },
+          {
+            "name": "YW Teh",
+            "size": 3321
           },
           {
             "name": "P Duygulu",
@@ -39,21 +49,14 @@
             "size": 3321
           },
           {
-            "name": "N Freitas",
+            "name": "K Barnard",
             "size": 1765
-          },
-          {
-            "name": "D Forsyth",
-            "size": 1765
-          },
-          {
-            "name": "YW Teh",
-            "size": 3321
           }
         ]
       },
       {
         "name": "Y Weiss",
+        "size": 8201,
         "children": [
           {
             "name": "KP Murphy",
@@ -63,18 +66,19 @@
       },
       {
         "name": "Z Ghahramani",
+        "size": 7077,
         "children": [
           {
-            "name": "DA Cohn",
-            "size": 1660
+            "name": "LK Saul",
+            "size": 2821
           },
           {
             "name": "DM Wolpert",
             "size": 2596
           },
           {
-            "name": "LK Saul",
-            "size": 2821
+            "name": "DA Cohn",
+            "size": 1660
           },
           {
             "name": "TS Jaakkola",
@@ -84,6 +88,7 @@
       },
       {
         "name": "RA Jacobs",
+        "size": 6803,
         "children": [
           {
             "name": "SJ Nowlan",
@@ -97,86 +102,98 @@
       },
       {
         "name": "GE Hinton",
+        "size": 3694,
         "children": []
       },
       {
         "name": "SJ Nowlan",
-        "children": []
-      },
-      {
-        "name": "MJ Beal",
+        "size": 3694,
         "children": []
       },
       {
         "name": "YW Teh",
+        "size": 3321,
         "children": []
       },
       {
-        "name": "LK Saul",
+        "name": "MJ Beal",
+        "size": 3321,
         "children": []
       },
       {
         "name": "TS Jaakkola",
+        "size": 2821,
+        "children": []
+      },
+      {
+        "name": "LK Saul",
+        "size": 2821,
         "children": []
       },
       {
         "name": "MJ Wainwright",
+        "size": 2717,
         "children": []
       },
       {
         "name": "DM Wolpert",
+        "size": 2596,
         "children": []
       },
       {
         "name": "EP Xing",
+        "size": 2572,
         "children": []
       },
       {
         "name": "SJ Russell",
+        "size": 2572,
         "children": []
       },
       {
-        "name": "GRG Lanckriet",
+        "name": "P Bartlett",
+        "size": 2401,
         "children": [
           {
             "name": "LE Ghaoui",
             "size": 2401
           },
           {
-            "name": "P Bartlett",
+            "name": "N Cristianini",
             "size": 2401
           },
           {
-            "name": "N Cristianini",
+            "name": "GRG Lanckriet",
             "size": 2401
           }
         ]
       },
       {
-        "name": "N Cristianini",
-        "children": []
-      },
-      {
         "name": "LE Ghaoui",
+        "size": 2401,
         "children": []
       },
       {
-        "name": "P Bartlett",
+        "name": "GRG Lanckriet",
+        "size": 2401,
+        "children": []
+      },
+      {
+        "name": "N Cristianini",
+        "size": 2401,
         "children": []
       },
       {
         "name": "E Todorov",
+        "size": 2057,
         "children": []
       },
       {
-        "name": "SS Sastry",
+        "name": "B Sinopoli",
+        "size": 1942,
         "children": [
           {
             "name": "M Franceschetti",
-            "size": 1942
-          },
-          {
-            "name": "B Sinopoli",
             "size": 1942
           },
           {
@@ -186,30 +203,39 @@
           {
             "name": "K Poolla",
             "size": 1942
+          },
+          {
+            "name": "SS Sastry",
+            "size": 1942
           }
         ]
       },
       {
-        "name": "L Schenato",
+        "name": "K Poolla",
+        "size": 1942,
         "children": []
       },
       {
-        "name": "K Poolla",
+        "name": "L Schenato",
+        "size": 1942,
         "children": []
       },
       {
         "name": "M Franceschetti",
+        "size": 1942,
         "children": []
       },
       {
-        "name": "B Sinopoli",
+        "name": "SS Sastry",
+        "size": 1942,
         "children": []
       },
       {
-        "name": "C Andrieu",
+        "name": "A Doucet",
+        "size": 1898,
         "children": [
           {
-            "name": "A Doucet",
+            "name": "C Andrieu",
             "size": 1898
           },
           {
@@ -220,40 +246,50 @@
       },
       {
         "name": "N De Freitas",
+        "size": 1898,
         "children": []
       },
       {
-        "name": "A Doucet",
+        "name": "C Andrieu",
+        "size": 1898,
         "children": []
       },
       {
         "name": "A Ng",
-        "children": []
-      },
-      {
-        "name": "D Forsyth",
-        "children": []
-      },
-      {
-        "name": "N Freitas",
-        "children": []
-      },
-      {
-        "name": "P Duygulu",
+        "size": 1805,
         "children": []
       },
       {
         "name": "K Barnard",
+        "size": 1765,
+        "children": []
+      },
+      {
+        "name": "D Forsyth",
+        "size": 1765,
+        "children": []
+      },
+      {
+        "name": "P Duygulu",
+        "size": 1765,
+        "children": []
+      },
+      {
+        "name": "N Freitas",
+        "size": 1765,
         "children": []
       },
       {
         "name": "FR Bach",
+        "size": 1756,
         "children": []
       },
       {
         "name": "DE Rumelhart",
+        "size": 1676,
         "children": []
       }
-    ]
+    ],
+    "size": 5900
   }
 ]
