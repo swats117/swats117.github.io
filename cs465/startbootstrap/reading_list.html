@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
 <style>
 select.selectpicker
 {
-    background-color: #009701;
+    background-color: #001a4d;
+    width: 1000px;
+    text-align: center;
 }
+body
+{
+  background-color: #7986CB;
+}
+
+select
+{
+  color: #b3d9ff;
+  text-align: center;
+}
+
+.button
+{
+  color: #b3d9ff;
+}
+
 </style>
   <head>
 
@@ -41,7 +67,7 @@ select.selectpicker
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
@@ -50,7 +76,7 @@ select.selectpicker
               <a class="nav-link" href="post.html">Research at University</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Your reading list</a>
+              <a class="nav-link" href="#">Your reading list</a>
             </li>
           </ul>
         </div>
@@ -58,7 +84,7 @@ select.selectpicker
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -76,22 +102,84 @@ select.selectpicker
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>The following is your reading list:</p>
-          <select class="selectpicker" data-style="btn-primary" >
-          <option> Paper </option>
-          <option>Author</option>
+          <h3> THE FOLLOWING ARE YOUR LIST OF PAPERS 
+          <br>
+          <br>
+          <select class="selectpicker" data-style="btn-primary"  >
+          <option > A situated ontology for practical NLP  </option>
+          <option>   </option>
           </select> <br>
           <select class="selectpicker" data-style="btn-primary" >
-          <option> Paper </option>
-          <option>Author</option>
+          <option>  A framework and graphical development environment for robust NLP tools and applications </option>
+          <option>  </option>
           </select> <br>
           <select class="selectpicker" data-style="btn-primary" >
-          <option> Paper </option>
-          <option>Author</option>
+          <option>  Multiword expressions: A pain in the neck for NLP  </option>
+          <option>   </option>
+          </select> <br>
+    
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>   SmartSantander: IoT experimentation over a smart city testbed </option>
+          <option>   </option>
+          </select> <br>
+          
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Natural language processing  </option>
+          <option>   </option>
+          </select> <br>
+       
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Natural language processing in medicine: an overview </option>
+          <option>   </option>
           </select> <br>
           <br>
-          <button type="button" class="btn btn-info" onclick = "location.href ='graphs.html' " >Click here to generate graph of selected items</button>
+          
+          </h3>
+        </div>
+      </div>
+    </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h3> THE FOLLOWING ARE YOUR LIST OF AUTHORS  
+          <br>
+          <br>
+          <select class="selectpicker" data-style="btn-primary"  >
+          <option > Kavi Mahesh  </option>
+          <option>   </option>
+          </select> <br>
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Vapnik </option>
+          <option>  </option>
+          </select> <br>
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Robert Tibshirani  </option>
+          <option>   </option>
+          </select> <br>
+    
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>   Jitendra Malik </option>
+          <option>   </option>
+          </select> <br>
+          
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Michael I Jordan </option>
+          <option>   </option>
+          </select> <br>
+
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Josh Cogan </option>
+          <option>   </option>
+          </select> <br>
+       
+          <select class="selectpicker" data-style="btn-primary" >
+          <option>  Trevor Hastie </option>
+          <option>   </option>
+          </select> <br>
+          <br>
+          
+          <center><button type="button" class="btn btn-primary btn-lg" onclick="location.href='graphs.html'">GENERATE GRAPHS</button></center></h3>
         </div>
       </div>
     </div>
