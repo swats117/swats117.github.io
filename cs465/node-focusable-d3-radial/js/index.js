@@ -4,14 +4,13 @@
   // Construct the treeData
   var new_function = ""
 
-  console.log("version 3");
+  console.log("version 4");
   url = new URL(window.location.href);
-  if(url.searchParams != null){
-    name = (url.searchParams.prof);
-    new_function = name.replace(/ /g,"_")+"()";
-    console.log(url.searchParams);
-    console.log(new_function);
-  }
+  console.log(url);
+  let name = url.searchParams.get("prof");
+  new_function = name.replace(/ /g,"_")+"()";
+  console.log(url.searchParams);
+  console.log(new_function);
 
   treeData = eval(new_function);
   console.log(treeData);
