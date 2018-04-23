@@ -5,7 +5,6 @@
   var new_function = ""
 
   url = new URL(window.location.href);
-  url.searchParams.prof="Michael I Jordan"
   if(url.searchParams != null){
     new_function = url.searchParams.prof.replace(/ /g,"_")+"()";
     console.log(url.searchParams);
