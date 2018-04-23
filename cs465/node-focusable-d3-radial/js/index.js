@@ -7,7 +7,8 @@
   console.log("version 3");
   url = new URL(window.location.href);
   if(url.searchParams != null){
-    new_function = url.searchParams.prof.replace(/ /g,"_")+"()";
+    name = (url.searchParams.prof);
+    new_function = name.replace(/ /g,"_")+"()";
     console.log(url.searchParams);
     console.log(new_function);
   }
