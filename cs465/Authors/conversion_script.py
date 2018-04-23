@@ -122,7 +122,10 @@ for author_name in authors_names:
 	print(treeData)
 
 	with open(author_name+'.json', 'w') as write_file:
-	    json.dump(treeData, write_file, indent=2)
+		write_file.write("function "+author_name+"(){ var treeData = ")
+		json.dump(treeData, write_file, indent=2)
+		write_file.write("; return treeData; }")
+	
 	os.chdir("..")
 
 

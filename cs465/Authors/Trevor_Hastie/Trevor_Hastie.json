@@ -1,4 +1,4 @@
-[
+function Trevor_Hastie(){ var treeData = [
   {
     "name": "Trevor Hastie",
     "children": [
@@ -7,12 +7,48 @@
         "size": 89189,
         "children": [
           {
+            "name": "T Aas",
+            "size": 11502
+          },
+          {
+            "name": "G Sherlock",
+            "size": 2612
+          },
+          {
+            "name": "G Walther",
+            "size": 3061
+          },
+          {
+            "name": "D Witten",
+            "size": 2673
+          },
+          {
+            "name": "O Troyanskaya",
+            "size": 2612
+          },
+          {
             "name": "M Cantor",
             "size": 2612
           },
           {
+            "name": "S Geisler",
+            "size": 11502
+          },
+          {
+            "name": "H Johnsen",
+            "size": 11502
+          },
+          {
             "name": "B Narasimhan",
             "size": 2637
+          },
+          {
+            "name": "T S\u00f8rlie",
+            "size": 11502
+          },
+          {
+            "name": "B Efron",
+            "size": 7505
           },
           {
             "name": "I Johnstone",
@@ -23,18 +59,6 @@
             "size": 2637
           },
           {
-            "name": "CM Perou",
-            "size": 11502
-          },
-          {
-            "name": "B Efron",
-            "size": 7505
-          },
-          {
-            "name": "G Walther",
-            "size": 3061
-          },
-          {
             "name": "P Brown",
             "size": 2612
           },
@@ -43,40 +67,16 @@
             "size": 9252
           },
           {
-            "name": "G Sherlock",
-            "size": 2612
-          },
-          {
-            "name": "O Troyanskaya",
-            "size": 2612
-          },
-          {
-            "name": "D Witten",
-            "size": 2673
-          },
-          {
-            "name": "T S\u00f8rlie",
-            "size": 11502
-          },
-          {
             "name": "J Friedman",
             "size": 53880
           },
           {
-            "name": "H Johnsen",
-            "size": 11502
-          },
-          {
-            "name": "T Aas",
+            "name": "CM Perou",
             "size": 11502
           },
           {
             "name": "G James",
             "size": 2673
-          },
-          {
-            "name": "S Geisler",
-            "size": 11502
           }
         ]
       },
@@ -96,7 +96,12 @@
         ]
       },
       {
-        "name": "CM Perou",
+        "name": "T S\u00f8rlie",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "H Johnsen",
         "size": 11502,
         "children": []
       },
@@ -111,12 +116,7 @@
         "children": []
       },
       {
-        "name": "H Johnsen",
-        "size": 11502,
-        "children": []
-      },
-      {
-        "name": "T S\u00f8rlie",
+        "name": "CM Perou",
         "size": 11502,
         "children": []
       },
@@ -152,11 +152,11 @@
             "size": 2053
           },
           {
-            "name": "CJ Yates",
+            "name": "M Dud\u00edk",
             "size": 2576
           },
           {
-            "name": "M Dud\u00edk",
+            "name": "CJ Yates",
             "size": 2576
           }
         ]
@@ -179,4 +179,4 @@
     ],
     "size": 13113
   }
-]
+]; return treeData; }

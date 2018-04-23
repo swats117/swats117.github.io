@@ -1,4 +1,4 @@
-[
+function V_Vapnik(){ var treeData = [
   {
     "name": "V Vapnik",
     "children": [
@@ -12,16 +12,16 @@
         "size": 21273,
         "children": [
           {
-            "name": "L Kaufman",
-            "size": 2293
+            "name": "AJ Smola",
+            "size": 4948
           },
           {
             "name": "H Drucker",
             "size": 3907
           },
           {
-            "name": "AJ Smola",
-            "size": 4948
+            "name": "L Kaufman",
+            "size": 2293
           }
         ]
       },
@@ -30,32 +30,32 @@
         "size": 20429,
         "children": [
           {
-            "name": "H Drucker",
-            "size": 3907
-          },
-          {
-            "name": "IM Guyon",
-            "size": 9404
-          },
-          {
-            "name": "AY Chervonenkis",
-            "size": 3603
+            "name": "D Wu",
+            "size": 1614
           },
           {
             "name": "O Chapelle",
             "size": 4304
           },
           {
-            "name": "BE Boser",
-            "size": 11090
+            "name": "AY Chervonenkis",
+            "size": 3603
+          },
+          {
+            "name": "IM Guyon",
+            "size": 9404
           },
           {
             "name": "P Haffner",
             "size": 1607
           },
           {
-            "name": "D Wu",
-            "size": 1614
+            "name": "BE Boser",
+            "size": 11090
+          },
+          {
+            "name": "H Drucker",
+            "size": 3907
           }
         ]
       },
@@ -64,16 +64,12 @@
         "size": 18933,
         "children": [
           {
-            "name": "LA Zadeh",
-            "size": 1599
-          },
-          {
-            "name": "S Barnhill",
-            "size": 6302
-          },
-          {
             "name": "A Elisseeff",
             "size": 11032
+          },
+          {
+            "name": "J Weston",
+            "size": 7816
           },
           {
             "name": "M Nikravesh",
@@ -84,8 +80,12 @@
             "size": 1599
           },
           {
-            "name": "J Weston",
-            "size": 7816
+            "name": "LA Zadeh",
+            "size": 1599
+          },
+          {
+            "name": "S Barnhill",
+            "size": 6302
           }
         ]
       },
@@ -93,6 +93,10 @@
         "name": "BE Boser",
         "size": 11090,
         "children": [
+          {
+            "name": "Y LeCun",
+            "size": 6264
+          },
           {
             "name": "WE Hubbard",
             "size": 1686
@@ -102,16 +106,12 @@
             "size": 4878
           },
           {
-            "name": "D Henderson",
-            "size": 4878
-          },
-          {
             "name": "JS Denker",
             "size": 4878
           },
           {
-            "name": "Y LeCun",
-            "size": 6264
+            "name": "D Henderson",
+            "size": 4878
           }
         ]
       },
@@ -157,11 +157,11 @@
             "size": 3192
           },
           {
-            "name": "D Henderson",
+            "name": "JS Denker",
             "size": 4878
           },
           {
-            "name": "JS Denker",
+            "name": "D Henderson",
             "size": 4878
           }
         ]
@@ -177,12 +177,12 @@
         ]
       },
       {
-        "name": "JS Denker",
+        "name": "D Henderson",
         "size": 4878,
         "children": []
       },
       {
-        "name": "D Henderson",
+        "name": "JS Denker",
         "size": 4878,
         "children": []
       },
@@ -196,11 +196,11 @@
         "size": 4304,
         "children": [
           {
-            "name": "O Bousquet",
+            "name": "S Mukherjee",
             "size": 2697
           },
           {
-            "name": "S Mukherjee",
+            "name": "O Bousquet",
             "size": 2697
           }
         ]
@@ -216,22 +216,22 @@
         "children": []
       },
       {
-        "name": "B Boser",
-        "size": 3192,
-        "children": []
-      },
-      {
         "name": "W Hubbard",
         "size": 3192,
         "children": []
       },
       {
-        "name": "S Mukherjee",
-        "size": 2697,
+        "name": "B Boser",
+        "size": 3192,
         "children": []
       },
       {
         "name": "O Bousquet",
+        "size": 2697,
+        "children": []
+      },
+      {
+        "name": "S Mukherjee",
         "size": 2697,
         "children": []
       },
@@ -261,11 +261,6 @@
         "children": []
       },
       {
-        "name": "M Nikravesh",
-        "size": 1599,
-        "children": []
-      },
-      {
         "name": "LA Zadeh",
         "size": 1599,
         "children": []
@@ -276,16 +271,21 @@
         "children": []
       },
       {
+        "name": "M Nikravesh",
+        "size": 1599,
+        "children": []
+      },
+      {
         "name": "C Watkins",
         "size": 1514,
         "children": []
       },
       {
-        "name": "D Horn",
+        "name": "HT Siegelmann",
         "size": 1293,
         "children": [
           {
-            "name": "HT Siegelmann",
+            "name": "D Horn",
             "size": 1293
           },
           {
@@ -297,4 +297,4 @@
     ],
     "size": 9618
   }
-]
+]; return treeData; }

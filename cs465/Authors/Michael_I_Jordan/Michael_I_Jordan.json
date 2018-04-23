@@ -1,4 +1,4 @@
-[
+function Michael_I_Jordan(){ var treeData = [
   {
     "name": "Michael I Jordan",
     "children": [
@@ -7,16 +7,16 @@
         "size": 31564,
         "children": [
           {
+            "name": "DM Blei",
+            "size": 27544
+          },
+          {
             "name": "Y Weiss",
             "size": 8201
           },
           {
             "name": "EP Xing",
             "size": 2572
-          },
-          {
-            "name": "DM Blei",
-            "size": 27544
           },
           {
             "name": "SJ Russell",
@@ -29,28 +29,28 @@
         "size": 27544,
         "children": [
           {
-            "name": "D Forsyth",
-            "size": 1765
+            "name": "YW Teh",
+            "size": 3321
           },
           {
             "name": "N Freitas",
             "size": 1765
           },
           {
-            "name": "YW Teh",
-            "size": 3321
+            "name": "P Duygulu",
+            "size": 1765
           },
           {
-            "name": "P Duygulu",
+            "name": "D Forsyth",
+            "size": 1765
+          },
+          {
+            "name": "K Barnard",
             "size": 1765
           },
           {
             "name": "MJ Beal",
             "size": 3321
-          },
-          {
-            "name": "K Barnard",
-            "size": 1765
           }
         ]
       },
@@ -77,12 +77,12 @@
             "size": 2596
           },
           {
-            "name": "DA Cohn",
-            "size": 1660
-          },
-          {
             "name": "TS Jaakkola",
             "size": 2821
+          },
+          {
+            "name": "DA Cohn",
+            "size": 1660
           }
         ]
       },
@@ -111,22 +111,22 @@
         "children": []
       },
       {
-        "name": "YW Teh",
-        "size": 3321,
-        "children": []
-      },
-      {
         "name": "MJ Beal",
         "size": 3321,
         "children": []
       },
       {
-        "name": "TS Jaakkola",
-        "size": 2821,
+        "name": "YW Teh",
+        "size": 3321,
         "children": []
       },
       {
         "name": "LK Saul",
+        "size": 2821,
+        "children": []
+      },
+      {
+        "name": "TS Jaakkola",
         "size": 2821,
         "children": []
       },
@@ -141,45 +141,45 @@
         "children": []
       },
       {
-        "name": "EP Xing",
-        "size": 2572,
-        "children": []
-      },
-      {
         "name": "SJ Russell",
         "size": 2572,
         "children": []
       },
       {
-        "name": "P Bartlett",
-        "size": 2401,
-        "children": [
-          {
-            "name": "LE Ghaoui",
-            "size": 2401
-          },
-          {
-            "name": "N Cristianini",
-            "size": 2401
-          },
-          {
-            "name": "GRG Lanckriet",
-            "size": 2401
-          }
-        ]
-      },
-      {
-        "name": "LE Ghaoui",
-        "size": 2401,
+        "name": "EP Xing",
+        "size": 2572,
         "children": []
       },
       {
         "name": "GRG Lanckriet",
         "size": 2401,
-        "children": []
+        "children": [
+          {
+            "name": "N Cristianini",
+            "size": 2401
+          },
+          {
+            "name": "P Bartlett",
+            "size": 2401
+          },
+          {
+            "name": "LE Ghaoui",
+            "size": 2401
+          }
+        ]
       },
       {
         "name": "N Cristianini",
+        "size": 2401,
+        "children": []
+      },
+      {
+        "name": "P Bartlett",
+        "size": 2401,
+        "children": []
+      },
+      {
+        "name": "LE Ghaoui",
         "size": 2401,
         "children": []
       },
@@ -193,19 +193,19 @@
         "size": 1942,
         "children": [
           {
-            "name": "M Franceschetti",
-            "size": 1942
-          },
-          {
             "name": "L Schenato",
             "size": 1942
           },
           {
-            "name": "K Poolla",
+            "name": "SS Sastry",
             "size": 1942
           },
           {
-            "name": "SS Sastry",
+            "name": "M Franceschetti",
+            "size": 1942
+          },
+          {
+            "name": "K Poolla",
             "size": 1942
           }
         ]
@@ -216,12 +216,12 @@
         "children": []
       },
       {
-        "name": "L Schenato",
+        "name": "M Franceschetti",
         "size": 1942,
         "children": []
       },
       {
-        "name": "M Franceschetti",
+        "name": "L Schenato",
         "size": 1942,
         "children": []
       },
@@ -231,26 +231,26 @@
         "children": []
       },
       {
-        "name": "A Doucet",
+        "name": "N De Freitas",
         "size": 1898,
         "children": [
           {
-            "name": "C Andrieu",
+            "name": "A Doucet",
             "size": 1898
           },
           {
-            "name": "N De Freitas",
+            "name": "C Andrieu",
             "size": 1898
           }
         ]
       },
       {
-        "name": "N De Freitas",
+        "name": "C Andrieu",
         "size": 1898,
         "children": []
       },
       {
-        "name": "C Andrieu",
+        "name": "A Doucet",
         "size": 1898,
         "children": []
       },
@@ -292,4 +292,4 @@
     ],
     "size": 5900
   }
-]
+]; return treeData; }

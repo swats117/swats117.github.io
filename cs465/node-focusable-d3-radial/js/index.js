@@ -1,87 +1,21 @@
 (function() {
   var construct_generations, diagonal, diameter, div, duration, height, i, radius, reconstruct_ancestors, reform_focus, root, store_and_update, svg, tree, treeData, update, zoom;
 
-   var treeData = [
-  {
-    "name": "Josh Cogan",
-    "children": [
-      {
-        "name": "A Tumasyan",
-        "children": [
-          {
-            "name": "S Chatrchyan",
-            "size": 22487
-          },
-          {
-            "name": "W Adam",
-            "size": 22487
-          },
-          {
-            "name": "AM Sirunyan",
-            "size": 22487
-          },
-          {
-            "name": "V Khachatryan",
-            "size": 22487
-          }
-        ]
-      },
-      {
-        "name": "S Chatrchyan",
-        "children": []
-      },
-      {
-        "name": "W Adam",
-        "children": []
-      },
-      {
-        "name": "AM Sirunyan",
-        "children": []
-      },
-      {
-        "name": "B Abbott",
-        "children": [
-          {
-            "name": "SA Khalek",
-            "size": 9033
-          },
-          {
-            "name": "R Aben",
-            "size": 3167
-          },
-          {
-            "name": "G Aad",
-            "size": 11905
-          },
-          {
-            "name": "J Abdallah",
-            "size": 11905
-          },
-          {
-            "name": "B Abi",
-            "size": 3167
-          },
-          {
-            "name": "A Abdesselam",
-            "size": 2872
-          },
-          {
-            "name": "T Abajyan",
-            "size": 5866
-          },
-          {
-            "name": "O Abdinov",
-            "size": 6039
-          },
-          {
-            "name": "AA Abdelalim",
-            "size": 8738
-          }
-        ]
-      }
-    ]
+  // Construct the treeData
+  var new_function = ""
+
+  url = new URL(window.location.href);
+  url.searchParams.prof="Michael I Jordan"
+  if(url.searchParams != null){
+    new_function = url.searchParams.prof.replace(/ /g,"_")+"()";
+    console.log(url.searchParams);
+    console.log(new_function);
   }
-];
+
+  treeData = eval(new_function);
+  console.log(treeData);
+  // Construct the treeData
+  
 
   // ************** Generate the tree diagram     *****************
   window.current_nodes = [];

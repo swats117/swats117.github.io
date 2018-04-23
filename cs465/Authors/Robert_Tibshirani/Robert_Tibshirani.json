@@ -1,4 +1,4 @@
-[
+function Robert_Tibshirani(){ var treeData = [
   {
     "name": "Robert Tibshirani",
     "children": [
@@ -7,24 +7,8 @@
         "size": 79044,
         "children": [
           {
-            "name": "B Narasimhan",
-            "size": 2637
-          },
-          {
-            "name": "I Johnstone",
-            "size": 7505
-          },
-          {
-            "name": "G Chu",
-            "size": 14625
-          },
-          {
-            "name": "CM Perou",
+            "name": "T Aas",
             "size": 11502
-          },
-          {
-            "name": "B Efron",
-            "size": 61944
           },
           {
             "name": "G Walther",
@@ -35,28 +19,44 @@
             "size": 2673
           },
           {
-            "name": "T S\u00f8rlie",
+            "name": "S Geisler",
             "size": 11502
-          },
-          {
-            "name": "J Friedman",
-            "size": 51666
           },
           {
             "name": "H Johnsen",
             "size": 11502
           },
           {
-            "name": "T Aas",
+            "name": "B Narasimhan",
+            "size": 2637
+          },
+          {
+            "name": "T S\u00f8rlie",
+            "size": 11502
+          },
+          {
+            "name": "B Efron",
+            "size": 61944
+          },
+          {
+            "name": "I Johnstone",
+            "size": 7505
+          },
+          {
+            "name": "G Chu",
+            "size": 14625
+          },
+          {
+            "name": "J Friedman",
+            "size": 51666
+          },
+          {
+            "name": "CM Perou",
             "size": 11502
           },
           {
             "name": "G James",
             "size": 2673
-          },
-          {
-            "name": "S Geisler",
-            "size": 11502
           }
         ]
       },
@@ -106,7 +106,12 @@
         "children": []
       },
       {
-        "name": "CM Perou",
+        "name": "T S\u00f8rlie",
+        "size": 11502,
+        "children": []
+      },
+      {
+        "name": "H Johnsen",
         "size": 11502,
         "children": []
       },
@@ -121,29 +126,16 @@
         "children": []
       },
       {
-        "name": "H Johnsen",
+        "name": "CM Perou",
         "size": 11502,
         "children": []
       },
       {
-        "name": "T S\u00f8rlie",
-        "size": 11502,
-        "children": []
-      },
-      {
-        "name": "C Ma",
+        "name": "A Rosenwald",
         "size": 9535,
         "children": [
           {
-            "name": "IS Lossos",
-            "size": 9535
-          },
-          {
-            "name": "A Rosenwald",
-            "size": 9535
-          },
-          {
-            "name": "RE Davis",
+            "name": "C Ma",
             "size": 9535
           },
           {
@@ -151,10 +143,23 @@
             "size": 9535
           },
           {
+            "name": "RE Davis",
+            "size": 9535
+          },
+          {
             "name": "AA Alizadeh",
+            "size": 9535
+          },
+          {
+            "name": "IS Lossos",
             "size": 9535
           }
         ]
+      },
+      {
+        "name": "IS Lossos",
+        "size": 9535,
+        "children": []
       },
       {
         "name": "MB Eisen",
@@ -167,17 +172,12 @@
         "children": []
       },
       {
-        "name": "A Rosenwald",
-        "size": 9535,
-        "children": []
-      },
-      {
         "name": "RE Davis",
         "size": 9535,
         "children": []
       },
       {
-        "name": "IS Lossos",
+        "name": "C Ma",
         "size": 9535,
         "children": []
       },
@@ -209,4 +209,4 @@
     ],
     "size": 20742
   }
-]
+]; return treeData; }
