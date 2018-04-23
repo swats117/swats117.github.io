@@ -23,11 +23,11 @@
 
   </head>
 
-  <body>
+  <body >
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
+      <div class="container" >
         
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -41,9 +41,7 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post.html">Research at University</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="reading_list.html">Your Reading list</a>
             </li>
@@ -68,11 +66,39 @@
     </header>
 
     <!-- Main Content -->
-    <div class="container">
+    <div class="container" >
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
         <p> 
-          INFORMATION ON HOW THE INTERACTIVE PROTOTYPE WORKS GOES HERE AFTER FINAL DESIGN
+          <h6>
+            This tool attempts to remodel information presented in publication space using a variety of visual and design features, the following tooltips help you understand how the tool works:
+            The home page contains four main search categories:
+            <hr>
+            <ol>
+            <li> <b>Search by Author </b>- The drop down is a set of examples that the user would potentially type in and a click on the search button redirects to a co-authorship network page. This representation highlights an author-co-authorship network. It is also dynamically collapsible and can be used to focus on a particular structure by clicking on a node and double clicking on the background (for previous state). The radius of the individual co-author nodes represent the number of shared citations. <i> This form of representation can be used gauge the centrality and collaboration between an author and co-author alongside the strengths and weaknesses </i> </li>
+
+            <hr>
+            <li> Search by Paper title - The drop down is a set of titles of papers that the user would typically type in and a click on the search button redirects to a page containing the abstract of the paper along with the PDF to the full paper. We also introduced the design idea of having a discussion forum specific to the paper with on-going dicussions about the paper and future work.
+              </li>
+            <hr>
+            <li> Search by keyword in Abstract - The drop down filters searches based on the keyword and it's presence in the abstract section of papers. It redirects to a page containing a list of top-papers/popular papers related to keyword match.
+              </li>
+            <hr>
+            <li> See what companies are talking about - This allows the user to view the research papers/work mentioned by companies on social media (focused on users/recruiters concered with R and D roles)</li>
+          
+            </ol>
+            FEATURES OF THE TOOL 
+            <hr>
+            <ul>
+            <li> Customize your search feature - this enables the user to add various filters to their search (conferences, domains, tools, language etc) that is applied to all his search results until he decides to clear the search customization</li>
+            <li>Your reading list - allows the user to create their own reading list of papers and authors </li>
+            <li>Generate graphs - used to generate graph to compare various features like h-index, i-10 index, citations, etc specific to your reading list</li>
+            </ul>
+
+
+
+
+          </h6>
         </div>
       </div>
     </div>

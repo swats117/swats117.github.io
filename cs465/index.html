@@ -60,9 +60,7 @@ div.topnav{
             <li class="nav-item">
               <a class="nav-link" href="startbootstrap/about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="startbootstrap/post.html">Research at University</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="startbootstrap/reading_list.html">Your Reading List</a>
             </li>
@@ -98,7 +96,7 @@ div.topnav{
     </select>
     <br>
     <br>
-    <button type="button" class="btn btn-primary" onclick = "location.href='node-focusable-d3-radial/index.html'">Search</button>
+    <button type="button" class="btn btn-primary" onclick = "fn4()">Search</button>
    
     </div>
     </div>
@@ -106,13 +104,13 @@ div.topnav{
     <p class = "bu1" ><button  type="button" class="btn btn-dark" onclick="fn1()">Author</button> <p>
        <p class = "bu2" ><button type="button" class="btn btn-dark" onclick="fn2()">Title</button> <p>
          <p class = "bu3" ><button type="button" class="btn btn-dark" onclick="fn3()">Abstract</button> <p>
-           <p class = "bu4" ><button type="button" class="btn btn-dark" onclick="location.href='figure-5.html'">See what companies are talking about</button> <p>
+           <p class = "bu4" ><button type="button" class="btn btn-dark" onclick="location.href='What_companies.html'">See what companies are talking about</button> <p>
     <!--<button margin-left = "150px" type="button" class="btn btn-dark">Author</button>-->
  
 
           <!-- Pager -->
           <div class="clearfix">
-            <a class="btn btn-primary float-right" href="figure-2.html">Customize your search &rarr;</a>
+            <a class="btn btn-primary float-right" href="Customization_page.html">Customize your search &rarr;</a>
           </div>
         </div>
       </div>
@@ -199,7 +197,15 @@ div.topnav{
         while (myNode.firstChild) {
         myNode.removeChild(myNode.firstChild);
         }
+
         var select1 = document.getElementById("selector");
+        
+
+        var opt3 = document.createElement('option');
+        opt3.value = "HCI";  
+        opt3.innerHTML = "HCI";
+        select1.appendChild(opt3);
+
         var opt1 = document.createElement('option');
         opt1.value = "Statistical learning";  
         opt1.innerHTML = "Statistical learning ";
@@ -215,12 +221,50 @@ div.topnav{
         opt3.innerHTML = "Machine Learning";
         select1.appendChild(opt3);
 
-        var opt3 = document.createElement('option');
-        opt3.value = "Sensor networks";  
-        opt3.innerHTML = "Sensor networks";
-        select1.appendChild(opt3);
+        
 
       
+      }
+
+      function fn4()
+      { //authors
+        if(document.getElementById('selector').value == "Kavi Mahesh") 
+            {
+            window.location.replace("node-focusable-d3-radial/index.html");
+            }
+
+
+        //titles
+        if(document.getElementById('selector').value == "A situated ontology for practical NLP") 
+            {
+            window.location.replace("papers/paper1.html");
+            }
+        if(document.getElementById('selector').value == "The Nature of Statistical Learning Theory") 
+            {
+            window.location.replace("papers/paper2.html");
+            }
+        if(document.getElementById('selector').value == "On the uniform convergence of relative frequencies of events to their probabilities") 
+            {
+            window.location.replace("papers/paper3.html");
+            }
+
+        //abstract
+        if(document.getElementById('selector').value == "Statistical learning") 
+            {
+            window.location.replace("papers/sl-menu.html");
+            }
+        if(document.getElementById('selector').value == "IoT") 
+            {
+            window.location.replace("papers/iot-menu.html");
+            }
+        if(document.getElementById('selector').value == "Machine Learning") 
+            {
+            window.location.replace("papers/ml-menu.html");
+            }
+         if(document.getElementById('selector').value == "HCI") 
+            {
+            window.location.replace("papers/hci-menu.html");
+            }
       }
 
     </script>

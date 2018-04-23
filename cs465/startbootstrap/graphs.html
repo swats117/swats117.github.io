@@ -130,18 +130,47 @@ var options3 = {
 
 
 };
+var options4 = {
+	title: {
+		text: "H-index"
+	},
+	
+	animationEnabled: true,
+	data: [{
+		type: "line",
+		startAngle: 40,
+		showInLegend: "true",
+		
+		indexLabelFontSize: 16,
+		
+		dataPoints: [
+			{ y: 20, label: " Kavi Mahesh" },
+			{ y: 121, label: "Vapnik " },
+			{ y: 99, label: "Robert Tibshirani" },
+			{ y: 112, label: "Jitendra Malik" },
+			{ y: 145, label: "Michael I Jordan" },
+			{ y: 100, label: " Josh Cogan" },
+			{ y: 912, label: " Trevor Hastie" }
+		]
 
+	}]
+
+
+
+
+};
 $("#chartContainer").CanvasJSChart(options);
 $("#chartContainer2").CanvasJSChart(options2);
 $("#chartContainer3").CanvasJSChart(options3);
+$("#chartContainer4").CanvasJSChart(options4);
 }
 
 
 </script>
 </head>
-<body >
+<body bgcolor="#7986CB">
 <div id="entire">
-<div id="chartContainer" style="height: 370px; width: 100%;  "></div>
+<div id="chartContainer"  style="height: 370px; width: 100%;  "></div>
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 <br>
@@ -152,13 +181,18 @@ $("#chartContainer3").CanvasJSChart(options3);
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 <br>
 <br>
-</div>
+
 <div id="chartContainer3" style="height: 370px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 <br>
 <br>
+<div id="chartContainer4" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<br>
+<br>
 </div>
-</center>
+
 </body>
 </html>
