@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   line-height: 1.42em;
   color:#A7A1AE;
-  background-color: #000000;
+
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
   font-weight: 300;
   line-height:1em;
   text-align: center;
-  color: #000000;
+  color: #A7A1AE;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
 h2 a {
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000;
+  color: #A7A1AE;
   text-decoration: none;
 }
 
