@@ -4,6 +4,8 @@
   // Construct the treeData
   var new_function = ""
 
+  console.log("version 3");
+  console.log(url.searchParams);
   url = new URL(window.location.href);
   if(url.searchParams != null){
     new_function = url.searchParams.prof.replace(/ /g,"_")+"()";
