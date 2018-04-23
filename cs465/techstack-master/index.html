@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+		 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 	<title>Customize your search</title>
 	<style>
 		html, body {
@@ -9,6 +11,7 @@
 			box-sizing: border-box;
 			font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif
 			-webkit-backface-visibility: hidden;
+			background-color: black;
 
 		}
 		* {
@@ -47,15 +50,139 @@
 		}
 		div {
     height: 1000px;
-    width: 50%;
-    background-color: powderblue;
+    width: 100%;
+    background-color: black;
 }
 	</style>
+	<style>
+		div {
+			border: 0px #000 solid;
+		}
+
+		
+
+		h1 {
+		    color: maroon;
+		    margin-left: 40px;
+		} 
+
+		.round {
+		    border-radius: 15px;
+		    border: 1px #000 solid;
+		    padding: 5px 5px 5px 25px;
+		}
+		.center_it{
+			position:relative;
+			left:40%;
+			transform: translateX(-40%);
+			-webkit-transform: translateX(-50%);
+			text-align:center;
+		}
+		.search_n_results{
+			position:relative;
+			width:60%;
+			float: left;
+			display:inline-block;
+			height: 100%;
+		}
+		.search_bar {
+			width: 60%;
+			margin: 2rem 0rem;
+		}
+		.query_modifiers{
+			position:relative;
+			width:39%;
+			height: 100%;
+			display:inline-block;
+		}
+		.categories{
+			position: relative;
+			width: 20%;
+			display:inline-block;
+			height: 100%;
+
+		}
+		.categories_list{
+			border: 1px solid black;
+			position: absolute;
+			right:0;
+			top: 5rem;
+		}
+		td {
+			border: 1px solid black;	
+		}
+		.selection_window{
+			width:77%;
+			position: relative;
+			display:inline-block;
+			height: 100%;
+		}
+		#selection_list{
+			position: absolute;
+			width: 100%;
+			left: 0;
+		}
+		.container{
+			height: 100%;
+		}
+		
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</style>
+	
 </head>
 <body>
-	<h1>Customize your search</h1>
+	<h1><b>Customize your search</b></h1>
+
+	<div class="pure-g">
+    	<div class="pure-u-1-2"><svg width= "100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle" ></svg></div>
+    	<div class="pure-u-1-2">
+    		<div  class="container">
+		
+		<div  class="search_n_results"> 
+			<!-- Search Bar -->
+			<div id="searchbar">
+				 	
+
+			</div>
+			<!-- Results List-->
+			<div>
+			</div>
+		</div>
+		<div id="red" class="query_modifiers">
+			<!-- Query Modifier Tabs -->
+			<div class="categories">
+				<table class="categories_list"  width="400">
+					<tr><td id="Domain"  >Domain</td></tr>
+					<tr><td id="Category">Category</td></tr>
+					<tr><td id="Tool">Tool</td></tr>
+					<tr><td id="Language">Language</td></tr>
+					<tr><td id="Platform">Platform</td></tr>
+				</table>
+			</div >
+			<!-- Selection Window -->
+			<div class="selection_window">
+				<table id="selection_list" style="visibility:hidden;">
+					<tr><td class="trs">Domain</td> </tr>
+					<tr><td class="trs">Category</td> </tr>
+					<tr><td class="trs">Tool</td> </tr>
+					<tr><td class="trs">Language</td> </tr>
+					<tr><td class="trs">Platform</td> </tr>
+				</table>
+			</div>
+		</div>
+	</div>
+    	</div>
+    
+	</div>
+
 	<div >
-	<svg width= "100%" height="500" font-family="sans-serif" font-size="10" text-anchor="middle" ></svg>
+	<center></center>
+	
 </div>
 	<script src="js/d3.min.js"></script>
 	<script src="js/d3-legend.min.js"></script>
@@ -599,7 +726,7 @@
 		});
 		simulation.nodes(nodes).on('tick', ticked);
 
-		svg.style('background-color', 'linen');
+		svg.style('background-color', 'black');
 		let node = svg.selectAll('.node')
 			.data(nodes)
 			.enter().append('g')
@@ -826,5 +953,121 @@
 					.attr('r', d => d.r);
 		}
 	</script>
+	
+	<script>
+		number_of_hits=0;
+		current_tab = null;
+		results_rows = document.getElementsByClassName("trs");
+
+		categories = [
+			["The Royal Institute","SIGOP","IEEE","ACM"],
+			["Machine Learning","Programming Languages","Game Theoretic Algorithms","Distributed Systems"],
+			["Mininet","Chop","Bounce","Datadog","OVS"],
+			["C++","C","Python","javascript","Ruby","PHP","Perl"],
+			["Mac","Linux","Windows","Sun"]
+		];
+
+		highlights = [
+			[false,false,false,false],
+			[false,false,false,false],
+			[false,false,false,false],
+			[false,false,false,false,false,false],
+			[false,false,false,false]
+		];
+
+		document.getElementById("Domain").addEventListener("click", function(){ handleClick("Domain",0);
+		});
+		document.getElementById("Category").addEventListener("click", function(){
+			handleClick("Category",1);
+		});
+		document.getElementById("Tool").addEventListener("click", function(){
+			handleClick("Tool",2);
+		});
+		document.getElementById("Language").addEventListener("click", function(){
+			handleClick("Language",3)
+		});
+		document.getElementById("Platform").addEventListener("click", function(){
+			handleClick("Platform",4);
+		});
+		
+
+		function handleClick(tab, rownum){
+			document.getElementById("selection_list").style.visibility="visible";
+			if(current_tab){
+				current_tab.style.backgroundColor = "linen";
+			}
+			current_tab = document.getElementById(tab);
+			current_tab.style.backgroundColor="royalblue";
+			fillinTable(rownum);
+		}
+
+		function update(){
+			var searchbar = document.getElementById("searchbar");
+			thing_im_looking_for = searchbar.value;
+			document.getElementById("selection_list").style.visibility="visible";
+			results_rows[0].innerHTML = thing_im_looking_for;
+			for(var i=1; i<results_rows.length; i++){
+				results_rows[i].style.visibility="hidden";
+			}
+			searchbar.value = "";
+		}
+
+		function fillinTable(rownum){
+			for(let i=0; i<highlights[rownum].length; i++){
+				results_rows[i].style.visibility="visible";
+				results_rows[i].style.backgroundColor="linen";
+				if(highlights[rownum][i]){
+					results_rows[i].style.backgroundColor="royalblue";
+				}
+				results_rows[i].innerHTML=categories[rownum][i];
+			}
+		} 
+
+		document.getElementById('searchbar').onkeypress = function(e){
+		    if (!e) e = window.event;
+		    var keyCode = e.keyCode || e.which;
+		    if (keyCode == '13'){
+		      	update();
+		        return false;
+		    }
+		}
+
+		function lookupTab(){
+			tab_names = ["Domain","Category","Tool","Language","Platform"];
+			for(let i=0; i<tab_names.length; i++){
+				if( current_tab === document.getElementById(tab_names[i]) ){
+					return i;
+				}
+			}
+		}
+
+		for(let i=0; i<results_rows.length; i++){
+			results_rows[i].addEventListener("click", function(){
+				if(highlights[lookupTab()][i]){
+					highlights[lookupTab()][i] = false;
+					this.style.backgroundColor="linen";
+				} else {
+					highlights[lookupTab()][i]=true;
+					this.style.backgroundColor="royalblue";
+				}
+				
+			});
+		}
+
+		function resetState(){
+			highlights = [
+				[false,false,false,false],
+				[false,false,false,false],
+				[false,false,false,false],
+				[false,false,false,false,false,false],
+				[false,false,false,false]
+			];
+			for(let i=0; i<results_rows.length; i++){
+				results_rows[i].style.backgroundColor="linen";
+			}
+		}
+
+	</script>
+
 </body>
 </html>

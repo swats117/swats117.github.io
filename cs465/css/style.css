@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   line-height: 1.42em;
   color:#A7A1AE;
-  background-color: #7986CB;
+  background-color: #000000;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h2 {
   display: block;
   line-height:1em;
   padding-bottom: 2em;
-  color: #000000;
+  color: #A7A1AE;
 }
 
 h2 a {
