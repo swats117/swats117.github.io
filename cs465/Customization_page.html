@@ -6,7 +6,7 @@
 	</script>
 	<style>
 		div {
-			border: 1px #000 solid;
+			border: 0px #000 solid;
 		}
 
 		
@@ -89,9 +89,9 @@
 	<div  class="container">
 		<div  class="search_n_results"> 
 			<!-- Search Bar -->
-			<div>
-				 <input id="searchbar" type="text" name="search_bar" class="round search_bar center_it" /><button style="margin: 0 0 0 5rem;" onclick="window.location.href ='index.html?returnedFromCustom=true'">Search</button>
-				 	<button style="margin: 0 0 0 0rem;" onclick="resetState()">Clear Customizations</button>
+			<div id="searchbar">
+				 	
+
 			</div>
 			<!-- Results List-->
 			<div>
@@ -137,7 +137,7 @@
 			[false,false,false,false],
 			[false,false,false,false],
 			[false,false,false,false],
-			[false,false,false,false],
+			[false,false,false,false,false,false],
 			[false,false,false,false]
 		];
 
@@ -179,7 +179,7 @@
 		}
 
 		function fillinTable(rownum){
-			for(let i=0; i<results_rows.length; i++){
+			for(let i=0; i<highlights[rownum].length; i++){
 				results_rows[i].style.visibility="visible";
 				results_rows[i].style.backgroundColor="linen";
 				if(highlights[rownum][i]){
@@ -225,7 +225,7 @@
 				[false,false,false,false],
 				[false,false,false,false],
 				[false,false,false,false],
-				[false,false,false,false],
+				[false,false,false,false,false,false],
 				[false,false,false,false]
 			];
 			for(let i=0; i<results_rows.length; i++){
