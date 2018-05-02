@@ -44,13 +44,17 @@
               Click any node to isolate to that particular network.
               Click background to revert back. 
             </p>
-            <p></p>
+            
             
           </div>
           <button class="btn" onClick="
         window.location.href = '../index.html';
       ">Homepage</button>
+      <div style="position: absolute; width: 95%; text-align: center; ">
+        <p id="tooltip" ></p>
+      </div>
         </div>
+
         <div class='col-md-2'>
           &nbsp;
         </div>
@@ -104,7 +108,41 @@
     
     <script  src="js/index.js"></script>
 
+    <script>
+      // This script adds the tooltip to the graph.
 
+      tooltip_window = document.getElementById("tooltip");
+      nodes = document.getElementsByClassName("node");
+      edges = document.getElementsByClassName("link");
+
+      for(let i=0; i<nodes.length; i++){
+        element = nodes[i];
+        element.addEventListener("mouseover", function(){
+          tooltip_window.innerHTML = 
+
+          "Node size indicated how often an author is cited."
+
+          ;
+        });
+        element.addEventListener("mouseleave", function(){
+          tooltip_window.innerHTML = "";
+        });
+      }
+      for(let i=0; i<edges.length; i++){
+        element = edges[i];
+        element.addEventListener("mouseover", function(){
+          tooltip_window.innerHTML = 
+
+          "Node radius illustrates author’s citations in the network graph."
+
+          ;
+        });
+        element.addEventListener("mouseleave", function(){
+          tooltip_window.innerHTML = "";
+        });
+      }
+
+    </script>
 
 
 </body>
