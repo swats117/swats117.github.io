@@ -17,7 +17,14 @@ div.topnav{
  margin-left: 500px;
 
 }
-
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
 
 </style>
 
@@ -127,7 +134,9 @@ div.topnav{
         tooltip_window = document.getElementById("tooltip");
         function addToolTip(id, message){
             document.getElementById(id).addEventListener("mouseover",   function(){
-                tooltip_window.innerHTML = message;
+                var element = document.getElementById("myDIV");
+                element.classList.add("mystyle");
+                element.innerHTML = message;
 
             });
             
@@ -334,6 +343,7 @@ div.topnav{
         document.getElementById("charlieSpecialTag").style.visibility="visible";
       }
     </script>
+    <center> <div id="myDIV">  </div> </center>
     <center> Hover over the search options to view the functionality of each, click to generate selectable search options  </center>
   </body>
 
