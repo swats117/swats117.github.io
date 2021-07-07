@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Express</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    
+</head>
+
+<body>
+    <div id="col-1">
+        <h2>Chicago Crime Correlation and Evolution</h2>
+        <p>To use this site, (<mark>CHROME</mark> only, Firefox/Safari not supported, sorry) <mark>CLICK</mark> the
+            <mark>SEARCH BAR</mark> to find a crime you are interested in.
+            The search interface is designed to mimic code completion. Simply type and
+            use <mark>ARROW KEYS</mark> until your choice is highlighted in blue, and then use the <mark>ENTER</mark>
+            key to finalize your selection.
+        </p>
+        <div class="searchDiv"><input id="searchBar">
+            <ul id="resultsList"></ul>
+        </div>
+        <div>
+            <h3>Likeliness Multiplier of Crime with Weather Event</h3>
+        </div>
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>low temperature</td>
+                        <td>mid temperature</td>
+                        <td>high temperature</td>
+                    </tr>
+                    <tr>
+                        <td id="low_temperature"></td>
+                        <td id="mid_temperature"></td>
+                        <td id="high_temperature"></td>
+                    </tr>
+                    <tr>
+                        <td>low visibility</td>
+                        <td>high visibility</td>
+                    </tr>
+                    <tr>
+                        <td id="low_visibility"></td>
+                        <td id="high_visibility"></td>
+                    </tr>
+                    <tr>
+                        <td>low windspeed</td>
+                        <td>mid windspeed</td>
+                        <td>high windspeed</td>
+                    </tr>
+                    <tr>
+                        <td id="low_windspeed"></td>
+                        <td id="mid_windspeed"></td>
+                        <td id="high_windspeed"></td>
+                    </tr>
+                    <tr>
+                        <td>low precipitation</td>
+                        <td>high precipitation</td>
+                    </tr>
+                    <tr>
+                        <td id="low_precipitation"></td>
+                        <td id="high_precipitation"></td>
+                    </tr>
+                    <tr>
+                        <td>low snowdepth</td>
+                        <td>high snowdepth</td>
+                    </tr>
+                    <tr>
+                        <td id="low_snowdepth"></td>
+                        <td id="high_snowdepth"></td>
+                    </tr>
+                    <tr>
+                        <td>fog</td>
+                        <td>rain/drizzle</td>
+                        <td>snow</td>
+                    </tr>
+                    <tr>
+                        <td id="fog"></td>
+                        <td id="rain_drizzle"></td>
+                        <td id="snow_ice_pellets"></td>
+                    </tr>
+                    <tr>
+                        <td>hail</td>
+                        <td>thunder</td>
+                        <td>tornado funnel cloud</td>
+                    </tr>
+                    <tr>
+                        <td id="hail"></td>
+                        <td id="thunder"></td>
+                        <td id="tornado_funnel_cloud"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- <script type="text/javascript" src="/javascripts/d3.v5.min.js"></script> -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <div class="img-overlay-wrap" id="col-2"><img id="map" src="/images/Chicago.png"><svg class="chicago"
+            id="chicago"></svg></div>
+    <script type="text/javascript" src="/javascripts/BeatLocations.js"></script>
+    <script type="text/javascript" src="/javascripts/Mercator.js"></script>
+    <script type="text/javascript" src="/javascripts/SearchBar.js"></script>
+    <script type="text/javascript" src="/javascripts/ReportCrime.js"></script>
+    <script type="text/javascript" src="/javascripts/UpdateGraphics.js"></script>
+</body>
+
+</html>
