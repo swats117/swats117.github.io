@@ -23094,7 +23094,7 @@ var SpotifyAuthRedirect = exports.SpotifyAuthRedirect = function (_React$Compone
                 client_id: "5dceabd3f7c4476bbb2b8250959a5ce2",
                 grant_type: "authorization_code",
                 code: code,
-                redirect_uri: "http://localhost:5500/reactapp/auth.html",
+                redirect_uri: "https://swats117.github.io/reactapp/auth.html",
                 code_verifier: sessionStorage.getItem("spotify-code-verifier")
             });
 
@@ -23246,7 +23246,7 @@ var SpotifyLogin = exports.SpotifyLogin = function SpotifyLogin() {
     console.log(codeChallenge);
 
     // construct the authentication url
-    var authURL = "https://accounts.spotify.com/authorize?response_type=code&client_id=5dceabd3f7c4476bbb2b8250959a5ce2&redirect_uri=http://localhost:5500/reactapp/auth.html&scope=user-library-read&state=" + state + "&code_challenge=" + codeChallenge + "&code_challenge_method=S256";
+    var authURL = "https://accounts.spotify.com/authorize?response_type=code&client_id=5dceabd3f7c4476bbb2b8250959a5ce2&redirect_uri=https://swats117.github.io/reactapp/auth.html&scope=user-library-read&state=" + state + "&code_challenge=" + codeChallenge + "&code_challenge_method=S256";
 
     // open the spotify authentication page
     window.open(authURL);
